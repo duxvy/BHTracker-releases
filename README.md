@@ -65,7 +65,7 @@ delete your settings too. **No** keeps them, so a reinstall picks up where you l
 
 - **No cards on the loading screen**: Brawlhalla has to be windowed or borderless, not fullscreen. Run
   **Diagnostics** from the BHTracker window.
-- **F8 does nothing**: another app may own F8 (GameClipper does). Pick another key in **Settings**.
+- **F8 does nothing**: another app may own F8. Pick another key in **Settings**.
 - **Your antivirus complains**: new, unsigned apps sometimes get flagged. BHTracker only takes screenshots of the
   game window and reads them.
 - **Anything else**: **Settings → Help → Create bug report** makes a zip to send. Your name is in it, but your
