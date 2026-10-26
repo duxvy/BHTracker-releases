@@ -3,9 +3,20 @@
 # Installing BHTracker
 
 BHTracker shows your Brawlhalla opponents' stats on the loading screen, by itself. It reads the names off your screen
-and looks them up with the official Brawlhalla API. It never touches the game.
+and looks them up with the official Brawlhalla API. It doesn't change the game unless you ask it to: only its
+Backgrounds and Mods pages do, and only after you accept their disclaimer.
 
 You need Windows 10 or 11 (64-bit). You don't need admin rights or anything else installed.
+
+> **Before you install.** BHTracker is free and provided as is, without any warranty, and you use it at your own risk.
+> It isn't affiliated with or endorsed by Blue Mammoth Games or Ubisoft. Its Mods and Backgrounds pages change
+> Brawlhalla's own game files: Blue Mammoth doesn't support mods, and changing the game's files could break the game.
+> Using mods could lead to account restrictions or bans, in any mode, including unranked. Future integrity checks or
+> anti-cheat measures may block mods or stop the game from starting. Mods may not show in ranked, and official
+> tournaments don't allow them (stage backgrounds are the one exception). Mods are made by their authors, not BHTracker.
+> You're responsible for making sure any mod you import follows Brawlhalla's rules and respects the rights of whoever owns
+> its art. The full disclaimer and terms come with BHTracker: **Settings → About** (and `TERMS.txt`, next to
+> BHTracker.exe).
 
 > **Had BrawlScout?** It's the same app, renamed. BrawlScout updates itself to BHTracker, so there's nothing to download
 > or reinstall. Your settings, card presets and learned name colour come along, and your old BrawlScout folder stays as a
@@ -66,10 +77,10 @@ delete your settings too. **No** keeps them, so a reinstall picks up where you l
 - **No cards on the loading screen**: Brawlhalla has to be windowed or borderless, not fullscreen. Run
   **Diagnostics** from the BHTracker window.
 - **F8 does nothing**: another app may own F8. Pick another key in **Settings**.
-- **Your antivirus complains**: new, unsigned apps sometimes get flagged. BHTracker only takes screenshots of the
-  game window and reads them.
+- **Your antivirus complains**: new, unsigned apps sometimes get flagged. BHTracker reads the game window from
+  screenshots; it changes the game's files only through its Backgrounds and Mods pages, when you ask it to.
 - **Anything else**: **Settings → Help → Create bug report** makes a zip to send. Your name is in it, but your
   Brawlhalla ID isn't.
 
-BHTracker is an independent tool made by players. It is not affiliated with, endorsed or sponsored by Blue Mammoth
-Games or Ubisoft. Brawlhalla is a trademark of Blue Mammoth Games.
+BHTracker is an independent tool made by players, free and provided as is, without any warranty. It is not affiliated
+with, endorsed or sponsored by Blue Mammoth Games or Ubisoft. Brawlhalla is a trademark of Blue Mammoth Games.
