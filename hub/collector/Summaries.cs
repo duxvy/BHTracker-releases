@@ -24,7 +24,7 @@ public static partial class Summaries
 
         int balance = PatchNotes.CountLines(bbcode, names);
         int fixes = Bbcode.Sections(bbcode).Sum(s => s.Bullets.Count(PatchNotes.IsFix));
-        if (IsPatch(title))
+        if (IsPatch(title) || IsBalancePost(title, bbcode, names))
         {
             if (balance > 0) bits.Add($"{balance} balance {(balance == 1 ? "change" : "changes")}");
             if (fixes > 0) bits.Add($"{fixes} bug {(fixes == 1 ? "fix" : "fixes")}");
@@ -34,8 +34,19 @@ public static partial class Summaries
 
     /// <summary>"Patch 11.00" from a patch post's title (not a balance preview), else null.</summary>
     public static string? PatchName(string title) =>
-        PatchNumber().Match(title) is { Success: true } m && !title.Contains("Preview", StringComparison.OrdinalIgnoreCase)
-            ? $"Patch {m.Groups[1].Value}" : null;
+        PatchNumber().Match(title) is { Success: true } m && !IsPreview(title) ? $"Patch {m.Groups[1].Value}" : null;
+
+    /// <summary>A post with balance changes in it, whatever its headline: "Patch 11.00", or 2020-2022's "New Legend:
+    /// Mako, the Shark" - two balance lines at least, and never a balance preview (the patch itself has them).</summary>
+    public static bool IsBalancePost(string title, string bbcode, Names names) =>
+        !IsPreview(title) && PatchNotes.CountLines(bbcode, names) >= 2;
+
+    /// <summary>What a balance post is called in the Hub: "Patch 11.00"; "Patch 3.06" for an older "Update 3.06" or
+    /// "- 10.03"; else "Balance update".</summary>
+    public static string PatchLabel(string title) =>
+        PatchName(title) ?? (OtherNumber().Match(title) is { Success: true } m ? $"Patch {m.Groups[1].Value}" : "Balance update");
+
+    static bool IsPreview(string title) => title.Contains("Preview", StringComparison.OrdinalIgnoreCase);
 
     static bool IsPatch(string title) => PatchName(title) is not null;
 
@@ -64,4 +75,8 @@ public static partial class Summaries
 
     [GeneratedRegex(@"Patch\s+(\d+\.\d+)")]
     private static partial Regex PatchNumber();
+
+    // "Update 3.06", "Patch Notes 9.13", "... - 10.03" at the end
+    [GeneratedRegex(@"(?:Update|Patch Notes|[-–])\s*(\d+\.\d+)\b")]
+    private static partial Regex OtherNumber();
 }

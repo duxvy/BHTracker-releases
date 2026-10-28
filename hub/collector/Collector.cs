@@ -5,12 +5,14 @@ namespace BHTracker.Hub;
 /// <summary>What one run has to work with. A null source failed this run: its part is kept from the previous hub.json.</summary>
 /// <param name="Posts">Official Steam posts, newest first.</param>
 /// <param name="LiquipediaPages">Liquipedia's tournament lists (the API's HTML), this year's first.</param>
+/// <param name="History">The history files' index as this run left them (null: as they were).</param>
 public sealed record HubInputs(
     IReadOnlyList<Post>? Posts,
     IReadOnlyList<string>? LiquipediaPages,
     IReadOnlyList<HubDate> Dates,
     HubDocument? Previous,
-    DateTimeOffset Now);
+    DateTimeOffset Now,
+    HistoryIndex? History = null);
 
 /// <summary>Builds hub.json and the date suggestions from a run's inputs, and writes each file only when its content
 /// changed (so the workflow commits only then).</summary>
@@ -30,11 +32,9 @@ public static class Collector
         var previous = inputs.Previous;
         var posts = inputs.Posts;
 
-        var news = posts?.Take(NewsCount).Select(p => new HubNews(p.Id, p.Title, p.Date, Summaries.For(p.Title, p.Contents, names), p.Url)).ToList()
+        var news = posts?.Take(NewsCount).Select(p => History.News(p, names)).ToList()
             ?? previous?.News.ToList() ?? [];
-        var patches = posts?.Where(p => Summaries.PatchName(p.Title) is not null)
-            .Select(p => new HubPatch(Summaries.PatchName(p.Title)!, p.Title, p.Date, p.Url, PatchNotes.Read(p.Contents, names)))
-            .Where(p => p.Subjects.Count > 0).Take(PatchCount).ToList()
+        var patches = posts?.Select(p => History.Patch(p, names)).OfType<HubPatch>().Take(PatchCount).ToList()
             ?? previous?.Patches.ToList() ?? [];
 
         var announced = posts is null
@@ -54,7 +54,7 @@ public static class Collector
             .OrderBy(d => DatesFile.When(d.Start ?? d.End!)).ToList();
 
         return new HubDocument(HubDocument.CurrentVersion, previous?.Updated ?? inputs.Now, news, patches,
-            new HubEsports(upcoming, results), countdowns);
+            new HubEsports(upcoming, results), countdowns, inputs.History ?? previous?.History);
     }
 
     static DateOnly Day(string when) => DateOnly.FromDateTime(DatesFile.When(when)!.Value.UtcDateTime);

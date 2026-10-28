@@ -95,11 +95,14 @@ public static partial class PatchNotes
     static IEnumerable<string> Clauses(string changes) =>
         ClauseSplit().Split(changes).Select(c => c.Trim().TrimEnd('.').Trim()).Where(c => c.Length > 0);
 
-    /// <summary>A clause restated as a fact in our words, or null. Only "Increased/Decreased X from A to B" for a stat we
-    /// name; the direction only where it's certain.</summary>
+    /// <summary>A clause restated as a fact in our words, or null. "Increased/Decreased X from A to B", the older "X
+    /// increased from A to B", or "Decreased X by 32%", for a stat we name; the direction only where it's certain.</summary>
     public static (string Text, int Dir)? Fact(string clause)
     {
-        var m = FactPattern().Match(clause.Trim().TrimEnd('.').Trim());
+        clause = clause.Trim().TrimEnd('.').Trim();
+        if (PercentPattern().Match(clause) is { Success: true } pc) return Percent(pc);
+        var m = FactPattern().Match(clause);
+        if (!m.Success) m = InvertedPattern().Match(clause);
         if (!m.Success) return null;
         var (stat, qualifiers) = Stat(m.Groups["stat"].Value);
         if (stat is null) return null;
@@ -117,8 +120,26 @@ public static partial class PatchNotes
         return ($"{stat}{detail} {Value(a)} → {Value(b)}", dir);
     }
 
-    // "a range of 61 Fixed/44~33 Variable" → "61/44-33"
-    static string Value(string v) => v.Replace("a range of ", "").Replace(" Fixed/", "/").Replace(" Variable", "").Replace('~', '-');
+    // "Decreased Variable Force by 32%" → "force (variable) -32%"
+    static (string Text, int Dir)? Percent(Match m)
+    {
+        var (stat, qualifiers) = Stat(m.Groups["stat"].Value);
+        if (stat is null) return null;
+        int sign = m.Groups["verb"].Value.StartsWith("Increase", StringComparison.OrdinalIgnoreCase)
+            || m.Groups["verb"].Value.StartsWith("Raise", StringComparison.OrdinalIgnoreCase) ? 1 : -1;
+        int dir = BetterWhenHigher(stat) switch { true => sign, false => -sign, null => 0 };
+        var detail = qualifiers.Count == 0 ? "" : $" ({string.Join(", ", qualifiers)})";
+        return ($"{stat}{detail} {(sign > 0 ? "+" : "-")}{m.Groups["n"].Value}{m.Groups["pc"].Value}", dir);
+    }
+
+    // "a range of 61 Fixed/44~33 Variable" → "61/44-33" (fixed/variable, whichever order the post has them in);
+    // "25 Fixed" → "25 fixed"
+    static string Value(string v)
+    {
+        v = v.Replace("a range of ", "").Replace('~', '-');
+        if (VariableFirst().Match(v) is { Success: true } m) return $"{m.Groups["f"].Value}/{m.Groups["v"].Value}";
+        return v.Replace(" Fixed/", "/").Replace(" Variable", "").Replace(" Fixed", " fixed");
+    }
 
     static List<double> Numbers(string v) =>
         Number().Matches(v).Select(x => double.Parse(x.Value, CultureInfo.InvariantCulture)).ToList();
@@ -146,6 +167,11 @@ public static partial class PatchNotes
         (Tail(@"of the (?<w>earlier|later|early|late|first|second|final) Hit Window"), "${w} hit"),
         (Tail(@"at the end of the Hit Window"), "later hit"),
         (Tail(@"on the main target"), "main target"), (Tail(@"(?:of the [\w ]+? )?on secondary targets"), "other targets"),
+        (Tail(@"on release"), "after release"), (Tail(@"on landing"), "landing"),
+        (Tail(@"of (?:the )?attack"), null),
+        // any other part, as patch notes name it: "of the setup hit", "of final hit", "of the air landing" (three words at
+        // most: a part's name, never a sentence)
+        (Tail(@"(?:of|on|for|during) (?:the |each |every |all )?(?<w>(?:[a-z-]+ ){0,3}(?:hits?|versions?|swings?|slash|landings?|strikes?|shots?|explosions?|projectiles?|blasts?|throws?|kicks?|punch|spin|dash|lunge|slam))"), "${w}"),
     ];
 
     static Regex Tail(string part) => new($@"\s+(?:{part})$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
@@ -161,6 +187,13 @@ public static partial class PatchNotes
             parts.Add(lead.Groups[1].Value.ToLowerInvariant() is "aerial" or "air" ? "air" : "ground");
             p = p[lead.Length..];
         }
+        // older notes: "Variable Force", "Fixed Recover Time" (force's two halves; a recovery's fixed and variable frames)
+        if (FixedOrVariable().Match(p) is { Success: true } half)
+        {
+            parts.Add(half.Groups[1].Value.ToLowerInvariant());
+            p = p[half.Length..];
+        }
+        int leading = parts.Count;   // the words before the stat first, then the parts after it in the post's order
         for (bool found = true; found;)
         {
             found = false;
@@ -169,7 +202,7 @@ public static partial class PatchNotes
                 var q = pattern.Match(p);
                 if (!q.Success) continue;
                 if (words is not null)
-                    parts.Insert(0, q.Result(words).ToLowerInvariant()
+                    parts.Insert(leading, q.Result(words).ToLowerInvariant()
                         .Replace("last hit", "final hit").Replace("early hit", "earlier hit").Replace("late hit", "later hit"));
                 p = p[..q.Index];
                 found = true;
@@ -185,8 +218,8 @@ public static partial class PatchNotes
             "stun" => "stun",
             // only a minimum charge is certain (less is better); a shorter maximum can be a nerf (Wu Shang's Down Gauntlets had
             // its cut so the signature is easier to counter), and a bare "charge time" could be either
-            "charge time" => min ? "min charge" : max ? "max charge" : "charge time",
-            "recover time" or "recovery time" => "recovery",
+            "charge time" or "charge" => min ? "min charge" : max ? "max charge" : "charge time",
+            "recover time" or "recovery time" or "recover" or "recovery" => "recovery",
             "cooldown" => "cooldown",
             "startup" or "startup time" => "startup",
             "hit window" => "hit window",
@@ -208,10 +241,25 @@ public static partial class PatchNotes
     };
 
     const string N = @"\d+(?:\.\d+)?(?:~\d+(?:\.\d+)?)?";
-    const string V = $@"(?:a range of )?{N}(?: Fixed/{N} Variable)?";
+    // a value: "12", "61 Fixed/44~33 Variable", the older "10 Variable/35 Fixed" and "25 Fixed"
+    const string V = $@"(?:a range of )?{N}(?: Fixed/{N} Variable| Variable/{N} Fixed| Fixed| Variable)?";
 
     [GeneratedRegex($@"^(?:Slightly |Significantly |Greatly )?(?:Increased?|Decreased?|Reduced?|Raised|Lowered|Changed|Adjusted|Delayed) (?<stat>.+?) from (?<a>{V}) to (?<b>{V})(?: to (?:match|keep|bring|make|align) .*)?$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]
     private static partial Regex FactPattern();
+
+    // older notes: "Cooldown on hit decreased from 16 to 11"
+    [GeneratedRegex($@"^(?<stat>[A-Z][\w /-]+?) (?:was |is |has been )?(?:increased|decreased|reduced|raised|lowered|changed|adjusted) from (?<a>{V}) to (?<b>{V})$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]
+    private static partial Regex InvertedPattern();
+
+    // "Decreased Variable Force by 32%", "Increased Damage by 2"
+    [GeneratedRegex(@"^(?:Slightly |Significantly |Greatly )?(?<verb>Increased?|Decreased?|Reduced?|Raised|Lowered) (?<stat>.+?) by (?<n>\d+(?:\.\d+)?)(?<pc>%?)$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]
+    private static partial Regex PercentPattern();
+
+    [GeneratedRegex(@"^(fixed|variable) ", RegexOptions.IgnoreCase)]
+    private static partial Regex FixedOrVariable();
+
+    [GeneratedRegex(@"^(?<v>[\d.-]+) Variable/(?<f>[\d.-]+) Fixed$")]
+    private static partial Regex VariableFirst();
 
     [GeneratedRegex(@"^(?:the |total |maximum total |maximum |minimum )+", RegexOptions.IgnoreCase)]
     private static partial Regex Leading();
@@ -236,7 +284,8 @@ public static partial class PatchNotes
     [GeneratedRegex(@"^(?:(?:Fused |Split |Exhausted )?(?:Neutral|Side|Down|Up)\b[\w '&]*|(?:Fused |Split |Exhausted )?(?:Recovery|Ground Pound)|[\w ]*(?:Light|Air|Attacks?|Opener|Finishers?|Throw))(?: \([\w '&]+\))?$")]
     private static partial Regex Move();
 
-    [GeneratedRegex(@";|, and (?=[a-z])|,? and (?=(?:increased|decreased|reduced|focused|lowered|raised|delayed|changed|adjusted|slightly|significantly)\b)", RegexOptions.IgnoreCase)]
+    // between changes: "; ", ", and ", " and Increased...", and a sentence's end inside one bullet (older notes)
+    [GeneratedRegex(@";|\.\s+(?=[A-Z])|, and (?=[a-z])|,? and (?=(?:increased|decreased|reduced|focused|lowered|raised|delayed|changed|adjusted|slightly|significantly)\b)", RegexOptions.IgnoreCase)]
     private static partial Regex ClauseSplit();
 
     // words a balance change uses, for a line whose move can't be told

@@ -6,15 +6,19 @@ namespace BHTracker.Hub;
 
 /// <summary>hub.json, version 1: everything BHTracker's Hub shows. Only BHTracker's own summaries, facts, names, dates
 /// and links: never a sentence of anyone's post. The app reads it with its own copy of this shape
-/// (BrawlScout.Core/Hub/HubFeed.cs); a test in the app's repo keeps the two in step.</summary>
+/// (BrawlScout.Core/Hub/HubFeed.cs); a test in the app's repo keeps the two in step.
+/// Fields are only ever added (2.7.0 reads every file since): never renamed or taken away.</summary>
 /// <param name="Updated">When the content last changed: a run that finds nothing new leaves the file as it is.</param>
+/// <param name="History">Where the older posts and patches are (one file a year, history/2026.json...), downloaded
+/// only when the app's full News list or patch history opens. Added after 2.7.0.</param>
 public sealed record HubDocument(
     int Version,
     DateTimeOffset Updated,
     IReadOnlyList<HubNews> News,
     IReadOnlyList<HubPatch> Patches,
     HubEsports Esports,
-    IReadOnlyList<HubDate> Countdowns)
+    IReadOnlyList<HubDate> Countdowns,
+    HistoryIndex? History = null)
 {
     public const int CurrentVersion = 1;
 
@@ -34,8 +38,29 @@ public sealed record HubDocument(
     }
 }
 
-/// <summary>An official post: its headline, time, our one-line summary ("" when the lists name nothing in it) and link.</summary>
-public sealed record HubNews(string Id, string Title, DateTimeOffset Date, string Summary, string Url);
+/// <summary>An official post: its headline, time, our one-line summary ("" when the lists name nothing in it) and link -
+/// and, added after 2.7.0, what it's about (<see cref="Hub.Categories"/>: "patch", "event", ...).</summary>
+public sealed record HubNews(string Id, string Title, DateTimeOffset Date, string Summary, string Url, IReadOnlyList<string>? Categories = null);
+
+/// <summary>The history files on hub-data: the rules' version they were made with (a newer one remakes them all), the
+/// year balance changes start from, and each file with its count and a hash of its text (the app downloads a year again
+/// only when its hash changes).</summary>
+public sealed record HistoryIndex(int Version, int PatchesSince, IReadOnlyList<HistoryFile> Files);
+
+public sealed record HistoryFile(int Year, string File, int Posts, int Patches, string Sha);
+
+/// <summary>One year of history (history/2026.json): every official post that year, with its summary and categories,
+/// and every balance post's changes (from <see cref="HistoryIndex.PatchesSince"/> on).</summary>
+public sealed record HistoryYear(int Version, int Year, IReadOnlyList<HubNews> News, IReadOnlyList<HubPatch> Patches)
+{
+    public string ToJson() => JsonSerializer.Serialize(this, HubDocument.Json) + "\n";
+
+    public static HistoryYear? FromJson(string json)
+    {
+        try { return JsonSerializer.Deserialize<HistoryYear>(json, HubDocument.Json); }
+        catch (JsonException) { return null; }
+    }
+}
 
 /// <summary>A patch's balance changes by legend and weapon, with the link to the full notes.</summary>
 public sealed record HubPatch(string Name, string Title, DateTimeOffset Date, string Url, IReadOnlyList<PatchSubject> Subjects);

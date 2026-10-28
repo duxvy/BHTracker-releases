@@ -1,14 +1,18 @@
 # BHTracker's Hub
 
-The Hub tab in BHTracker shows Brawlhalla's latest news, what the newest patch changes for your legends, official esports
-events and results, and countdowns. BHTracker never reads those websites itself: this folder's collector does, on GitHub
-Actions, and puts everything into one small file, `hub.json`, on the `hub-data` branch. BHTracker downloads that file.
-When a site changes, the collector is fixed here once and every player gets the fix without an app update.
+The Hub tab in BHTracker shows Brawlhalla's news back to 2014, what each patch changed for every legend and weapon since
+2016, official esports events and results, and countdowns. BHTracker never reads those websites itself: this folder's
+collector does, on GitHub Actions, and puts everything on the `hub-data` branch: one small file, `hub.json`, which
+BHTracker downloads, and the history, one file a year (`history/2026.json`), which it downloads only when its News list
+or patch history opens. When a site changes, the collector is fixed here once and every player gets the fix without an
+app update.
 
 ## What runs
-- `.github/workflows/hub.yml` runs the collector every 4 hours and on demand. It commits to `hub-data` only when
-  `hub.json` or `date-suggestions.json` actually changed. Once a month it also re-enables itself, because GitHub switches
-  off timed workflows in a repo with no activity for 60 days.
+- `.github/workflows/hub.yml` runs the collector every 4 hours and on demand. It commits to `hub-data` only when a file
+  actually changed. Once a month it also re-enables itself, because GitHub switches off timed workflows in a repo with
+  no activity for 60 days.
+- The history is made from every official post once (Steam's news API paged back to 2014, a second between pages), and
+  again whenever the collector's rules change (`History.Version`). After that, each run puts the newest posts in.
 - No secrets. The job uses its own token, for this repo only.
 
 ## Where the content comes from

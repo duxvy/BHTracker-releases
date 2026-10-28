@@ -4,16 +4,20 @@ using System.Text.Json;
 using BHTracker.Hub;
 
 // The Hub's collector. One run: Brawlhalla's official Steam posts, Liquipedia's tournament list (kept 12 hours), the
-// approved dates.json -> hub.json and date-suggestions.json in --out, each written only when its content changed.
+// approved dates.json -> hub.json, date-suggestions.json and history/<year>.json in --out, each written only when its
+// content changed. The history is made whole from Steam (every page back to 2014) when there's none yet or its rules
+// changed (History.Version); otherwise the newest posts go into it.
 //
-//   --out <dir>              where the two files go (the previous hub.json there is kept for a source that fails)
-//   --dates <file>           dates.json (approved dates)
-//   --cache <dir>            Liquipedia's answers between runs
-//   --steam-file <file>      Steam's answer from a file instead of the API (tests, offline)
-//   --liquipedia-file <file> Liquipedia's HTML from a file instead of the API
-//   --no-liquipedia          leave results as they were
-//   --now <time>             the run's time (tests)
-//   --check-dates <file>     only check a dates.json and list its entries
+//   --out <dir>                  where the files go (the previous ones there are kept for a source that fails)
+//   --dates <file>               dates.json (approved dates)
+//   --cache <dir>                Liquipedia's answers between runs
+//   --steam-file <file>          Steam's newest posts from a file instead of the API (tests, offline)
+//   --steam-history-file <file>  every post, from a file (.json or .json.gz) instead of paging the API back
+//   --liquipedia-file <file>     Liquipedia's HTML from a file instead of the API
+//   --no-liquipedia              leave results as they were
+//   --no-history                 leave the history as it was
+//   --now <time>                 the run's time (tests)
+//   --check-dates <file>         only check a dates.json and list its entries
 
 var options = Options(args);
 if (options.TryGetValue("check-dates", out var check)) return CheckDates(check);
@@ -57,7 +61,17 @@ else if (!options.ContainsKey("no-liquipedia"))
 
 if (posts is null && previous is null) { Console.Error.WriteLine("No news and no earlier hub.json: nothing to write"); return 1; }
 
-var inputs = new HubInputs(posts, pages, dates, previous, now);
+HistoryIndex? history = null;
+if (!options.ContainsKey("no-history"))
+{
+    try { history = await HistoryAsync(outDir, previous, posts, options, cts.Token); }
+    catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException or JsonException or KeyNotFoundException or InvalidOperationException or IOException)
+    {
+        Console.WriteLine($"::warning::The history wasn't made ({ex.GetType().Name}: {ex.Message}); keeping the last one");
+    }
+}
+
+var inputs = new HubInputs(posts, pages, dates, previous, now, history);
 var hub = Collector.Build(inputs, Names.Bundled);
 bool wroteHub = Collector.WriteHub(hubPath, hub, now);
 bool wroteSuggestions = Collector.WriteSuggestions(Path.Combine(outDir, "date-suggestions.json"), Collector.Suggest(inputs));
@@ -65,6 +79,44 @@ Console.WriteLine($"hub.json {(wroteHub ? "updated" : "unchanged")}: {hub.News.C
     $"{hub.Esports.Upcoming.Count} upcoming, {hub.Esports.Results.Count} results, {hub.Countdowns.Count} countdowns");
 Console.WriteLine($"date-suggestions.json {(wroteSuggestions ? "updated" : "unchanged")}");
 return 0;
+
+// the history: read as the last run left it and the newest posts put in; made again from every post when there's none
+// yet, or its rules changed
+static async Task<HistoryIndex?> HistoryAsync(string outDir, HubDocument? previous, IReadOnlyList<Post>? posts,
+    Dictionary<string, string> options, CancellationToken ct)
+{
+    var names = Names.Bundled;
+    var years = History.Read(outDir, previous?.History);
+    if (years is null)
+    {
+        IReadOnlyList<Post> all = options.TryGetValue("steam-history-file", out var file) ? SteamNews.Official(ReadText(file))
+            : options.ContainsKey("steam-file") ? posts ?? []      // offline: what there is
+            : await SteamAllAsync(ct);
+        if (all.Count == 0) return previous?.History;
+        years = History.Build(posts is null ? all : all.Concat(posts), names);
+        Console.WriteLine($"History: made from {all.Count} posts ({all[^1].Date:yyyy-MM-dd} on)");
+    }
+    else if (posts is not null) years = History.Merge(years, posts, names);
+    var (index, written) = History.Write(outDir, years);
+    Console.WriteLine($"History: {index.Files.Count} years, {written} written");
+    return index;
+}
+
+static async Task<IReadOnlyList<Post>> SteamAllAsync(CancellationToken ct)
+{
+    using var http = new HttpClient(new SocketsHttpHandler { AutomaticDecompression = DecompressionMethods.GZip }) { Timeout = TimeSpan.FromSeconds(60) };
+    http.DefaultRequestHeaders.UserAgent.ParseAdd(Liquipedia.UserAgent);
+    return await SteamNews.FetchAllAsync(http, ct);
+}
+
+// a file's text, unzipped when it's .gz
+static string ReadText(string path)
+{
+    if (!path.EndsWith(".gz", StringComparison.OrdinalIgnoreCase)) return File.ReadAllText(path);
+    using var gz = new System.IO.Compression.GZipStream(File.OpenRead(path), System.IO.Compression.CompressionMode.Decompress);
+    using var reader = new StreamReader(gz);
+    return reader.ReadToEnd();
+}
 
 static async Task<string> SteamAsync(CancellationToken ct)
 {
