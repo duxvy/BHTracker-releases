@@ -1,0 +1,2440 @@
+{
+  "version": 1,
+  "year": 2025,
+  "news": [
+    {
+      "id": "1819386365106967",
+      "title": "Valhalla's Jolliest Event Continues!",
+      "date": "2025-12-24T17:16:01+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1819386365106967",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1819386365087186",
+      "title": "Gear up for ValhallaQuest! - Battle Pass Classic 7 Begins!",
+      "date": "2025-12-17T16:22:09+00:00",
+      "summary": "Battle Pass Classic 7",
+      "url": "https://store.steampowered.com/news/app/291550/view/1819386365087186",
+      "categories": [
+        "battle-pass"
+      ]
+    },
+    {
+      "id": "1818752592121120",
+      "title": "Have you Been Abominable or Admirable?",
+      "date": "2025-12-10T15:36:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1818752592121120",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1818118366173041",
+      "title": "The Attack on Brawlhalla Crossover Event Begins! – Patch 10.01",
+      "date": "2025-12-04T14:17:21+00:00",
+      "summary": "7 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1818118366173041",
+      "categories": [
+        "patch",
+        "event",
+        "crossover"
+      ]
+    },
+    {
+      "id": "1816849002021782",
+      "title": "EVERYTHING REVEALED AT THE BRAWLHALLA WORLD CHAMPIONSHIP EXPO 2025",
+      "date": "2025-11-24T21:44:42+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1816849002021782",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1816849002018666",
+      "title": "ATTACK ON BRAWLHALLA CROSSOVER EVENT & NEW LEGEND 68 REVEALS",
+      "date": "2025-11-23T17:13:19+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1816849002018666",
+      "categories": [
+        "event",
+        "crossover"
+      ]
+    },
+    {
+      "id": "1816849002017337",
+      "title": "UPCOMING FEATURES REVEAL & CARD GAME PREORDERS ARE LIVE",
+      "date": "2025-11-22T18:43:37+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1816849002017337",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1816849002015350",
+      "title": "This Is Brawlhalla",
+      "date": "2025-11-21T19:20:08+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1816849002015350",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1816849002012187",
+      "title": "BCX WEEK!!!",
+      "date": "2025-11-20T20:21:02+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1816849002012187",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1816307528919459",
+      "title": "Back-3-Back Double Gold and XP Weekends!",
+      "date": "2025-11-13T17:20:40+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1816307528919459",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1815580768229837",
+      "title": "Brawlhalla's 10 Year Anniversary Celebration! – 10.00",
+      "date": "2025-11-05T14:00:13+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1815580768229837",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1814942955103552",
+      "title": "Last Week for Vampires vs. Werewolves",
+      "date": "2025-10-29T15:11:42+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1814942955103552",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1814309641613591",
+      "title": "New Legend, Guilds, and 10th Anniversary Event Reveals",
+      "date": "2025-10-28T17:31:28+00:00",
+      "summary": "10th Anniversary event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1814309641613591",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1814309641413908",
+      "title": "Vampires vs. Werewolves Skirmish Begins!",
+      "date": "2025-10-22T15:31:04+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1814309641413908",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1813674388979942",
+      "title": "Brawlhalla World Championship 2025 Cosplay Contest!",
+      "date": "2025-10-17T19:10:38+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813674388979942",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1813674388940186",
+      "title": "Brawlhalla: The Card Game Reveal",
+      "date": "2025-10-16T14:46:56+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813674388940186",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1813674388907536",
+      "title": "Spooky Switchcraft & More Event Missions – Brawlhalloween 2025",
+      "date": "2025-10-15T15:00:37+00:00",
+      "summary": "Brawlhalloween event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813674388907536",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1813041031247826",
+      "title": "The Brawlhalla Championship Expo is Live!",
+      "date": "2025-10-10T17:44:03+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813041031247826",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1813041031174249",
+      "title": "Happy Brawlhalloween! – Patch Notes 9.13 (Part 1)",
+      "date": "2025-10-08T13:00:12+00:00",
+      "summary": "Brawlhalloween event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813041031174249",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1813041031174250",
+      "title": "Experimental Queue Returns & Balance Updates – Patch Notes 9.13 (Part 2)",
+      "date": "2025-10-08T13:00:12+00:00",
+      "summary": "27 balance changes · 4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813041031174250",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "1811772772646054",
+      "title": "BCX 2025 Sweepstakes",
+      "date": "2025-10-07T19:01:35+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1811772772646054",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1811772772446853",
+      "title": "Jikoku Ghost Duel – Brawl of the Week",
+      "date": "2025-10-01T16:00:19+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1811772772446853",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1811138915422636",
+      "title": "The Autumn Doubles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-09-19T11:00:19+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1811138915422636",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1811138915361754",
+      "title": "New Upcoming Dynamic Queues, Ranked Season 38, and Game Updates – Patch 9.12",
+      "date": "2025-09-17T14:59:25+00:00",
+      "summary": "7 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1811138915361754",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "1811138915361753",
+      "title": "Battle Pass Season 12 – Patch 9.12",
+      "date": "2025-09-17T14:59:23+00:00",
+      "summary": "Battle Pass Season 12",
+      "url": "https://store.steampowered.com/news/app/291550/view/1811138915361753",
+      "categories": [
+        "patch",
+        "battle-pass"
+      ]
+    },
+    {
+      "id": "1810503566586348",
+      "title": "PATCH PREVIEW 9.12 – Battle Pass Season 12",
+      "date": "2025-09-16T17:34:50+00:00",
+      "summary": "Battle Pass Season 12",
+      "url": "https://store.steampowered.com/news/app/291550/view/1810503566586348",
+      "categories": [
+        "battle-pass"
+      ]
+    },
+    {
+      "id": "1810503566446993",
+      "title": "The Autumn Singles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-09-12T11:00:57+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1810503566446993",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1810503566385015",
+      "title": "Rock Out With Rayman!",
+      "date": "2025-09-10T13:56:31+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1810503566385015",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1809869180036779",
+      "title": "Upcoming Community Tournaments!",
+      "date": "2025-09-04T15:15:41+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1809869180036779",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1809869180004596",
+      "title": "Celebrating 30 Years of Rayman!",
+      "date": "2025-09-03T15:43:27+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1809869180004596",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1809235871556426",
+      "title": "Last Week for Back To School Tickets!",
+      "date": "2025-08-27T15:04:22+00:00",
+      "summary": "Back to School event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1809235871556426",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1808601382412491",
+      "title": "Back To School Week 2 & Ghost Brawl!",
+      "date": "2025-08-20T14:30:11+00:00",
+      "summary": "Back to School event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1808601382412491",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1807966710818635",
+      "title": "Time to go Back to School – Patch 9.11",
+      "date": "2025-08-13T15:19:35+00:00",
+      "summary": "Back to School event · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1807966710818635",
+      "categories": [
+        "patch",
+        "event"
+      ]
+    },
+    {
+      "id": "1807332909741572",
+      "title": "Development Update Stream - August 2025",
+      "date": "2025-08-12T19:43:04+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1807332909741572",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1807332909537581",
+      "title": "7x Brawl of the Days & Light vs. Shadow Skirmish's Final Week",
+      "date": "2025-08-06T13:00:17+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1807332909537581",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1806698490657738",
+      "title": "Wu Shang's Ascension – Patch 9.10",
+      "date": "2025-07-30T19:32:58+00:00",
+      "summary": "46 balance changes · 12 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1806698490657738",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "1806064758639820",
+      "title": "The Summer Doubles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-07-25T11:00:48+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1806064758639820",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1806064758580202",
+      "title": "ITS TIME FOR PARTY QUEUE!",
+      "date": "2025-07-23T15:12:55+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1806064758580202",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1805431065366695",
+      "title": "The Summer Singles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-07-18T11:00:38+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1805431065366695",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1805431065305858",
+      "title": "HEATWAVE BEGINS! ☀️\uD83C\uDFD6️",
+      "date": "2025-07-16T15:00:19+00:00",
+      "summary": "Heatwave event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1805431065305858",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1803527891937615",
+      "title": "You've Been Challenged to a Duel… Queue!!!",
+      "date": "2025-07-09T19:31:24+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1803527891937615",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1803527891707243",
+      "title": "New Ranked Ladder, Who's This? Ranked Season 37!",
+      "date": "2025-07-02T15:17:26+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1803527891707243",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1803527891583598",
+      "title": "The Eternal Sports Kung Foot Championship is LIVE!",
+      "date": "2025-06-28T19:04:18+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1803527891583598",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1803527891474865",
+      "title": "Ransom, Gadget Mayhem, Damage Numbers, & Many Festivities! – Patch 9.09",
+      "date": "2025-06-25T13:07:25+00:00",
+      "summary": "22 balance changes · 19 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1803527891474865",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "1802893906699153",
+      "title": "Spooky Switchcraft, New Brawl of the Week!",
+      "date": "2025-06-18T14:52:12+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1802893906699153",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1802354289728210",
+      "title": "Brawlhalla Tales: Nix Graphic Novel Available Now!",
+      "date": "2025-06-17T16:00:40+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1802354289728210",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1802354289603903",
+      "title": "The Midseason Championship featuring the best players in the world is LIVE!",
+      "date": "2025-06-13T18:45:05+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1802354289603903",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1802261838716481",
+      "title": "Modern FFA & Batavian Ghost Brawl!",
+      "date": "2025-06-11T14:34:54+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1802261838716481",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1801617199363541",
+      "title": "Brawlhalla Fest Concludes and Battle Pass Classic 6 Begins! – Patch 9.08",
+      "date": "2025-06-04T16:11:52+00:00",
+      "summary": "Battle Pass Classic 6 · Brawlhalla Fest event · 5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1801617199363541",
+      "categories": [
+        "patch",
+        "event",
+        "battle-pass"
+      ]
+    },
+    {
+      "id": "1800991756279278",
+      "title": "Brawl of the Day, Speed vs. Strength, & Last Week for BHF Tickets!",
+      "date": "2025-05-28T13:53:37+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1800991756279278",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1800357164377915",
+      "title": "Keep Earning Tickets, Daily Sales, Double XP",
+      "date": "2025-05-21T15:45:28+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1800357164377915",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1799817379501777",
+      "title": "The Spring Doubles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-05-16T13:30:10+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1799817379501777",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1799722702496469",
+      "title": "Free Items and Ascended Nix in Brawlhalla Fest 2025! – Patch 9.07",
+      "date": "2025-05-14T14:48:12+00:00",
+      "summary": "Brawlhalla Fest event · Ascended Nix · 6 balance changes · 6 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1799722702496469",
+      "categories": [
+        "patch",
+        "event"
+      ]
+    },
+    {
+      "id": "1799088287864896",
+      "title": "The Spring Singles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-05-09T12:45:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1799088287864896",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1799088287801015",
+      "title": "Brawl of the Fates Returns! Plus, 3v3 Sports Queue Live Now.",
+      "date": "2025-05-07T14:02:03+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1799088287801015",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1798454487572646",
+      "title": "Enter, General Grievous. May the 4th Be With You! – Patch 9.06",
+      "date": "2025-04-30T14:12:07+00:00",
+      "summary": "May the 4th event · 11 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1798454487572646",
+      "categories": [
+        "patch",
+        "event"
+      ]
+    },
+    {
+      "id": "1797185861609955",
+      "title": "3, 2, 1 – BLOOM!",
+      "date": "2025-04-16T16:00:14+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1797185861609955",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1796551539188159",
+      "title": "1 More Week of the Brawlhalla: Guardians Crossover Event",
+      "date": "2025-04-09T14:12:01+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1796551539188159",
+      "categories": [
+        "event",
+        "crossover"
+      ]
+    },
+    {
+      "id": "1795917897453298",
+      "title": "Brawlhalla Esports Partners with Challengermode",
+      "date": "2025-04-07T13:13:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1795917897453298",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1795917897295070",
+      "title": "The Quest for Glory Never Ends | Ranked Season 36",
+      "date": "2025-04-02T14:57:27+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1795917897295070",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1795283637788676",
+      "title": "Assemble Your Fireteam in the Brawlhalla: Guardians Crossover Event! Patch 9.05",
+      "date": "2025-03-26T14:31:00+00:00",
+      "summary": "65 balance changes · 7 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1795283637788676",
+      "categories": [
+        "patch",
+        "event",
+        "crossover"
+      ]
+    },
+    {
+      "id": "1794830911005193",
+      "title": "Here is the Brawlhalla Patch 9.05 Balance Preview",
+      "date": "2025-03-24T16:46:49+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1794830911005193",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1794830910936215",
+      "title": "The Eternal Sports Triples Championship is LIVE!",
+      "date": "2025-03-22T12:30:34+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1794830910936215",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1794102528272806",
+      "title": "Who Will Win? 1 More Week of Luck vs. Skill!",
+      "date": "2025-03-19T15:43:02+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1794102528272806",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1794014851389691",
+      "title": "Luck o' the Brawl 2025 & the Luck vs. Skill Skirmish Begin!",
+      "date": "2025-03-12T12:59:57+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1794014851389691",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1793384379343325",
+      "title": "Battle Pass Season 11: Azoth's Ascension – Patch 9.04",
+      "date": "2025-03-05T15:22:24+00:00",
+      "summary": "Battle Pass Season 11 · 14 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1793384379343325",
+      "categories": [
+        "patch",
+        "battle-pass"
+      ]
+    },
+    {
+      "id": "1792751526040231",
+      "title": "The Winter Doubles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-02-28T12:00:06+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1792751526040231",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1792751526016598",
+      "title": "Brawlhalla: Guardians Crossover Event Coming March 26",
+      "date": "2025-02-27T19:02:39+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1792751526016598",
+      "categories": [
+        "event",
+        "crossover"
+      ]
+    },
+    {
+      "id": "1792751525977532",
+      "title": "New Legend: Priya with New Weapon: Chakram, & New Challenges! – Patch 9.03",
+      "date": "2025-02-26T15:01:44+00:00",
+      "summary": "New legend: Priya",
+      "url": "https://store.steampowered.com/news/app/291550/view/1792751525977532",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "1792116353237839",
+      "title": "Double Gold & Double XP All Weekend Long!",
+      "date": "2025-02-21T20:34:00+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1792116353237839",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1792116353225056",
+      "title": "The Winter Singles Championship featuring the best players in the world is LIVE!",
+      "date": "2025-02-21T12:00:09+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1792116353225056",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1792116353164688",
+      "title": "Double XP/Gold & Winter Champs '25 Singles This Weekend!",
+      "date": "2025-02-19T16:03:26+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1792116353164688",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1791482680860921",
+      "title": "Valhallentine's 2025 & Sweet vs. Sour Skirmish Begin!",
+      "date": "2025-02-12T15:31:18+00:00",
+      "summary": "Valhallentine event",
+      "url": "https://store.steampowered.com/news/app/291550/view/1791482680860921",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "1790848102590397",
+      "title": "New Legend: Priya with New Weapon: Chakram, & New Challenges! – Patch 9.03",
+      "date": "2025-02-05T16:26:49+00:00",
+      "summary": "New legend: Priya · 14 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1790848102590397",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "1790214123055626",
+      "title": "A Radiant Dancer is Arriving in Valhalla!",
+      "date": "2025-01-29T17:10:20+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1790214123055626",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1789580505276214",
+      "title": "Pancakes vs. Waffles – New Skirmish Starts Now!",
+      "date": "2025-01-22T15:25:25+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1789580505276214",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1788945554761405",
+      "title": "Challenges Preview Update, Bubble Bomb, Balance, and More! – Patch 9.02",
+      "date": "2025-01-15T16:30:46+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1788945554761405",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1788311419186691",
+      "title": "Brawlhalla Esports Year Ten",
+      "date": "2025-01-14T20:20:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1788311419186691",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1788311418996161",
+      "title": "Eternal Sports Brawlball Championship",
+      "date": "2025-01-08T22:51:05+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1788311418996161",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "1788311418985186",
+      "title": "Ranked Season 35: The Ladder Resets Once Again!",
+      "date": "2025-01-08T14:47:47+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1788311418985186",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1786573931037412",
+      "title": "Happy New Year, Brawlers!",
+      "date": "2025-01-01T15:00:37+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1786573931037412",
+      "categories": [
+        "other"
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "name": "Patch 9.13",
+      "title": "Experimental Queue Returns & Balance Updates – Patch Notes 9.13 (Part 2)",
+      "date": "2025-10-08T13:00:12+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/1813041031174250",
+      "subjects": [
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 8 → 9",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "time to hit 9 → 10",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Battle Boots",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "time to hit 8 → 9",
+              "dir": -1
+            },
+            {
+              "move": "Recovery",
+              "fact": "recovery (on miss) 1/29 → 1/26",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 12 → 14",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "recovery (on miss) 8/19 → 9/19",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (on miss) 2/22 → 4/22",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Chakram",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Fused Recovery",
+              "dir": 0
+            },
+            {
+              "move": "Fused Ground Pound",
+              "fact": "force 53/42 → 55/44",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "stun 26-20 → 25-17",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "force 55/40 → 60/41",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katars",
+              "fact": "min charge 11 → 8",
+              "dir": 1
+            },
+            {
+              "move": "Side Bow",
+              "fact": "damage 23 → 25",
+              "dir": 1
+            },
+            {
+              "move": "Side Bow",
+              "fact": "force 65/52 → 65/54",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ezio",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Orb",
+              "fact": "force (air) 58/41 → 60/44",
+              "dir": 0
+            },
+            {
+              "move": "Down Orb",
+              "fact": "force (ground) 65/52 → 65/54",
+              "dir": 0
+            },
+            {
+              "move": "Down Orb",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kaya",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Bow",
+              "fact": "min charge 11 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Spear",
+              "fact": "min charge 10 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Down Spear",
+              "fact": "recovery (on miss) 21 → 25",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "King Zuva",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Battle Boots",
+              "fact": "recovery 28 → 25",
+              "dir": 1
+            },
+            {
+              "move": "Down Battle Boots",
+              "fact": "force 40/53 → 40/56",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Mordex",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Scythe",
+              "fact": "min charge 6 → 8",
+              "dir": -1
+            },
+            {
+              "move": "Down Scythe",
+              "fact": "recovery (on miss) 23 → 26",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Reno",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Orb",
+              "fact": "min charge 10 → 6",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "fact": "recovery (on miss) 19 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "force 75/54 → 68/51",
+              "dir": 0
+            },
+            {
+              "move": "Side Axe",
+              "fact": "force 62/56 → 60/53",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 9.10",
+      "title": "Wu Shang's Ascension – Patch 9.10",
+      "date": "2025-07-30T19:32:58+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/1806698490657738",
+      "subjects": [
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "force 75-50/53-22 → 70-50/50-22",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Battle Boots",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 12 → 13",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (on miss) 6/15 → 9/15",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 11 → 12",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "stun 24-18 → 23-17",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 10 → 12",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 14 → 15",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Cannon",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "damage 13 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "force 35/53 → 38/54",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Chakram",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Split Neutral Air",
+              "fact": "stun 20-16 → 22-18",
+              "dir": 0
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "stun (air) 14-13 → 16-15",
+              "dir": 0
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "stun (far, ground) 19-17 → 21-19",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 19-17 → 18-16",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 22 → 20",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "damage 22-20 → 20-18",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 11 → 12",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage 9 → 11",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orb",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "hit window (first hit) 6 → 5",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "hit window (second hit) 6 → 5",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (on miss) 3/15 → 6/15",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (on miss) 3/18 → 5/18",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Rocket Lance",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "fact": "stun (later hit) 27-24 → 29-26",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Scythe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (on miss) 6/20 → 8/20",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage (active input) 15 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage (normal) 15 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage (active input) 16 → 14",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 14 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "damage 14 → 13",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Azoth",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Bow",
+              "fact": "min charge 16 → 13",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kaya",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Bow",
+              "fact": "force 70/55 → 62/51",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "fact": "min charge 8 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Down Bow",
+              "fact": "force 70/50 → 60/47",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ragnir",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Axe",
+              "fact": "force 75/58 → 78/59",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ransom",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Chakram",
+              "fact": "max damage 25 → 27",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Chakram",
+              "dir": 0
+            },
+            {
+              "move": "Side Chakram",
+              "fact": "force 55/47 → 50/43",
+              "dir": 0
+            },
+            {
+              "move": "Side Chakram",
+              "fact": "recovery 20 → 22",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Red Raptor",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Boots",
+              "fact": "force 50/49 → 50/47",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Reno",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Blasters",
+              "fact": "force 55/44 → 60/49",
+              "dir": 0
+            },
+            {
+              "move": "Down Orb",
+              "fact": "force (air) 58/46 → 58/48",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Axe",
+              "fact": "force (air) 55/45 → 55/43",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Axe",
+              "fact": "recovery (air) 17 → 21",
+              "dir": -1
+            },
+            {
+              "move": "Side Axe",
+              "fact": "force 66/64 → 62/56",
+              "dir": 0
+            },
+            {
+              "move": "Side Axe",
+              "fact": "recovery 24 → 26",
+              "dir": -1
+            },
+            {
+              "move": "Down Axe",
+              "fact": "force 70-60/55-45 → 70-60/50-45",
+              "dir": 0
+            },
+            {
+              "move": "Down Axe",
+              "fact": "recovery 26 → 28",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Vector",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "force 54/50 → 54/52",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Bow",
+              "fact": "damage 24 → 25",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Bow",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Vivi",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Boots",
+              "dir": 0
+            },
+            {
+              "move": "Down Boots",
+              "fact": "recovery 22 → 26",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Wu Shang",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Spear",
+              "fact": "force 60/45 → 60/46",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Spear",
+              "fact": "damage 22 → 24",
+              "dir": 1
+            },
+            {
+              "move": "Side Spear",
+              "fact": "force 55/46 → 58/47",
+              "dir": 0
+            },
+            {
+              "move": "Side Spear",
+              "fact": "damage 23 → 24",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Yumiko",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "fact": "stun 24 → 18",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 9.09",
+      "title": "Ransom, Gadget Mayhem, Damage Numbers, & Many Festivities! – Patch 9.09",
+      "date": "2025-06-25T13:07:25+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/1803527891474865",
+      "subjects": [
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 12 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 17 → 16",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Chakram",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Fused Neutral Light",
+              "fact": "force 52/38 → 54/41",
+              "dir": 0
+            },
+            {
+              "move": "Fused Neutral Air",
+              "fact": "damage 14 → 16",
+              "dir": 1
+            },
+            {
+              "move": "Fused Neutral Air",
+              "fact": "force 55/40 → 55/42",
+              "dir": 0
+            },
+            {
+              "move": "Split Neutral Air",
+              "fact": "stun 16-12 → 20-16",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "damage 9 → 7",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "force 60-55/45-44 → 58-52/44-42",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orb",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 12 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (on miss) 2/18 → 3/18",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Scythe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "stun 21-17 → 19-15",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "hit window 5 → 4",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "recovery (on miss) 9/20 → 11/20",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "time to hit 12 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "hit window 5 → 4",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "recovery (on miss) 4/24 → 5/24",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (on miss) 8/15 → 6/15",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (on miss) 9/21 → 7/21",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (on miss) 10/22 → 8/22",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Cassidy",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "fact": "time to hit (after charge) 17 → 15",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Diana",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Blasters",
+              "fact": "force 70/43 → 70/46",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Magyar",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "fact": "force 72/47 → 72/49",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Hammer",
+              "fact": "damage 25 → 26",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Hammer",
+              "fact": "force 75/57 → 75/54",
+              "dir": 0
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "min charge 10 → 12",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "King Zuva",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Battle Boots",
+              "fact": "force (start) 65/55 → 65/58",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Battle Boots",
+              "fact": "force (end) 55/49 → 55/53",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Battle Boots",
+              "fact": "recovery 32 → 28",
+              "dir": 1
+            },
+            {
+              "move": "Side Battle Boots",
+              "fact": "force (start) 60/51 → 60/53",
+              "dir": 0
+            },
+            {
+              "move": "Side Battle Boots",
+              "fact": "force (end) 52/45 → 52/48",
+              "dir": 0
+            },
+            {
+              "move": "Down Battle Boots",
+              "fact": "recovery 28 → 25",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 9.07",
+      "title": "Free Items and Ascended Nix in Brawlhalla Fest 2025! – Patch 9.07",
+      "date": "2025-05-14T14:48:12+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/1799722702496469",
+      "subjects": [
+        {
+          "name": "Chakram",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Fused Down Light",
+              "fact": "recovery (on miss) 11/10 → 15/14",
+              "dir": -1
+            },
+            {
+              "move": "Split Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Fused Down Air",
+              "fact": "recovery (on hit, far grounded version) 8/7 → 12/7",
+              "dir": -1
+            },
+            {
+              "move": "Fused Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "time to hit 12 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "recovery (on hit, air) 3/11 → 6/11",
+              "dir": -1
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "recovery (on hit, far grounded version) 4/11 → 9/11",
+              "dir": -1
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "recovery (on miss, air) 3/11 → 11/11",
+              "dir": -1
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "recovery (on miss, far grounded version) 4/11 → 10/11",
+              "dir": -1
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "recovery (on miss, close grounded version) 8/11 → 10/11",
+              "dir": -1
+            },
+            {
+              "move": "Split Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Fused Recovery",
+              "dir": 0
+            },
+            {
+              "move": "Split Recovery",
+              "fact": "time to hit 11 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Split Recovery",
+              "fact": "recovery (on miss) 5/15 → 8/15",
+              "dir": -1
+            },
+            {
+              "move": "Split Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 9.05",
+      "title": "Assemble Your Fireteam in the Brawlhalla: Guardians Crossover Event! Patch 9.05",
+      "date": "2025-03-26T14:31:00+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/1795283637788676",
+      "subjects": [
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "stun 20 → 21",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "force 52/0 → 42/0",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "stun 22 → 24-18",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 15 → 10",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Chakram",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Aerial Attacks",
+              "dir": 0
+            },
+            {
+              "move": "Fused Side Light",
+              "fact": "force 70/30 → 70/35",
+              "dir": 0
+            },
+            {
+              "move": "Fused Side Air",
+              "fact": "force 58/40 → 60/43",
+              "dir": 0
+            },
+            {
+              "move": "Fused Down Air",
+              "fact": "force (air) 60/40 → 60/38",
+              "dir": 0
+            },
+            {
+              "move": "Split Neutral Light",
+              "fact": "stun 22 → 19-15",
+              "dir": 0
+            },
+            {
+              "move": "Split Neutral Light",
+              "fact": "recovery (on hit) 11 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Split Neutral Air",
+              "fact": "stun 25 → 23-19",
+              "dir": 0
+            },
+            {
+              "move": "Split Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "stun (final hit, air) 19 → 17-16",
+              "dir": 0
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "stun (close, ground) 25 → 23-21",
+              "dir": 0
+            },
+            {
+              "move": "Split Down Air",
+              "fact": "stun (far, ground) 18 → 19-17",
+              "dir": 0
+            },
+            {
+              "move": "Split Recovery",
+              "fact": "force 61/40 → 61/38",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "time to hit 12 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Recovery",
+              "fact": "recovery (on miss) 8/12 → 12/12",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Greatsword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light Opener",
+              "fact": "dash/dodge/jump cancel (on miss) 21 → 26",
+              "dir": -1
+            },
+            {
+              "move": "Side Light Opener",
+              "fact": "dash/dodge/jump cancel (on miss) 19 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Side Light Opener",
+              "fact": "walk cancel 24 → 29",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light Bridge (from Side Light Opener)",
+              "fact": "stun 15 → 15-11",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light Bridge (from Down Light Opener)",
+              "fact": "stun 17 → 17-8",
+              "dir": 0
+            },
+            {
+              "move": "Side Light Bridge (from Neutral Light Opener)",
+              "fact": "stun 16 → 16-7",
+              "dir": 0
+            },
+            {
+              "move": "Side Light Bridge (from Down Light Opener)",
+              "fact": "stun 14 → 14-5",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 18 → 19",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 17-15 → 19-17",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 20 → 22",
+              "dir": 1
+            },
+            {
+              "move": "Side Air",
+              "fact": "damage 20-18 → 22-20",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 13 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 11 → 8",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage 12 → 9",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "damage 16 → 14",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Rocket Lance",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "force 40/43 → 42/45",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Exhausted Recovery",
+              "fact": "time to hit 10 → 12",
+              "dir": -1
+            },
+            {
+              "move": "Exhausted Recovery",
+              "fact": "force 58/54 → 53/50",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (on miss) 4/15 → 8/15",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (on miss) 5/21 → 9/21",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "time to hit 8 → 9",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (on miss) 5/20 → 10/22",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "recovery (on miss) 5/24 → 7/24",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Azoth",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "force 65/56 → 65/60",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "fact": "force 76-55/54-48 → 76-55/58-52",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "fact": "damage 23 → 25",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "force 65/51 → 65/55",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Katars",
+              "fact": "force 75/54 → 75/60",
+              "dir": 0
+            },
+            {
+              "move": "Side Katars",
+              "fact": "force 65/51 → 65/54",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Lord Vraxx",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Rocket Lance",
+              "fact": "force 65/50 → 65/53",
+              "dir": 0
+            },
+            {
+              "move": "Down Rocket Lance",
+              "fact": "damage 22 → 25",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Blasters",
+              "fact": "force 60/55 → 60/57",
+              "dir": 0
+            },
+            {
+              "move": "Down Blasters",
+              "fact": "force 70/46 → 70/51",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Magyar",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Greatsword",
+              "fact": "damage 23 → 26",
+              "dir": 1
+            },
+            {
+              "move": "Down Greatsword",
+              "fact": "force 55/52 → 55/56",
+              "dir": 0
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "damage 22 → 28",
+              "dir": 1
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "force 61/52 → 65/56",
+              "dir": 0
+            },
+            {
+              "move": "Down Hammer",
+              "fact": "force (air) 60/46 → 60/49",
+              "dir": 0
+            },
+            {
+              "move": "Down Hammer",
+              "fact": "force (ground) 65/56 → 65/58",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Nix",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Blasters",
+              "fact": "force 65/55 → 65/57",
+              "dir": 0
+            },
+            {
+              "move": "Down Blasters",
+              "fact": "damage 23 → 27",
+              "dir": 1
+            },
+            {
+              "move": "Down Blasters",
+              "fact": "force 60/57 → 60/60",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Priya",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Chakram",
+              "fact": "recovery (on miss) 22 → 28",
+              "dir": -1
+            },
+            {
+              "move": "Side Chakram",
+              "fact": "recovery 23 → 26",
+              "dir": -1
+            },
+            {
+              "move": "Side Chakram",
+              "fact": "force 55/50 → 55/48",
+              "dir": 0
+            },
+            {
+              "move": "Down Chakram",
+              "fact": "recovery 19 → 21",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Sword",
+              "fact": "recovery 16 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Sword",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ragnir",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katars",
+              "fact": "force 60/51 → 60/53",
+              "dir": 0
+            },
+            {
+              "move": "Down Axe",
+              "fact": "force 75/54 → 75/58",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sir Roland",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Rocket Lance",
+              "fact": "force 71/55 → 71/59",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ulgrim",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Axe",
+              "fact": "damage 28 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Side Axe",
+              "fact": "force 62/56 → 62/51",
+              "dir": 0
+            },
+            {
+              "move": "Side Axe",
+              "fact": "damage 26 → 23",
+              "dir": -1
+            },
+            {
+              "move": "Down Axe",
+              "fact": "force 74/54 → 65/50",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Rocket Lance",
+              "fact": "force 58/56 → 58/54",
+              "dir": 0
+            },
+            {
+              "move": "Side Rocket Lance",
+              "fact": "force 70/55 → 70/50",
+              "dir": 0
+            },
+            {
+              "move": "Side Rocket Lance",
+              "fact": "damage 26 → 22",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Wu Shang",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Gauntlets",
+              "fact": "damage 27 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Side Gauntlets",
+              "fact": "force 60/49 → 60/45",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Spear",
+              "fact": "damage 26 → 22",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Spear",
+              "fact": "force 60/48 → 60/45",
+              "dir": 0
+            },
+            {
+              "move": "Side Spear",
+              "fact": "damage 25 → 23",
+              "dir": -1
+            },
+            {
+              "move": "Side Spear",
+              "fact": "force 60/49 → 55/46",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    }
+  ]
+}

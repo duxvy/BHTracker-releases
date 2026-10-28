@@ -1,90 +1,128 @@
 {
   "version": 1,
-  "updated": "2026-10-28T21:21:02.4148514+00:00",
+  "updated": "2026-10-28T23:18:59.7224288+00:00",
   "news": [
     {
       "id": "1846651706681642",
       "title": "An Update on Our Anti-Cheating Measures",
       "date": "2026-10-16T14:12:53+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1846651706681642"
+      "url": "https://store.steampowered.com/news/app/291550/view/1846651706681642",
+      "categories": [
+        "other"
+      ]
     },
     {
       "id": "1846651706672605",
       "title": "Ascended Teros & 11th Anniversary Event – Patch 11.00",
       "date": "2026-10-13T22:38:29+00:00",
       "summary": "11th Anniversary event · Ascended Teros · 25 balance changes · 5 bug fixes",
-      "url": "https://store.steampowered.com/news/app/291550/view/1846651706672605"
+      "url": "https://store.steampowered.com/news/app/291550/view/1846651706672605",
+      "categories": [
+        "patch",
+        "event"
+      ]
     },
     {
       "id": "1846018067941916",
       "title": "BCX 2026 Sweepstakes",
       "date": "2026-10-12T18:00:14+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1846018067941916"
+      "url": "https://store.steampowered.com/news/app/291550/view/1846018067941916",
+      "categories": [
+        "esports"
+      ]
     },
     {
       "id": "1846018067934129",
       "title": "ASCENDED TEROS ERUPTS OCTOBER 14",
       "date": "2026-10-09T17:15:37+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1846018067934129"
+      "url": "https://store.steampowered.com/news/app/291550/view/1846018067934129",
+      "categories": [
+        "other"
+      ]
     },
     {
       "id": "1845383656397136",
       "title": "Mallhalla Chests Regional Availability Changes",
       "date": "2026-10-06T17:15:00+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1845383656397136"
+      "url": "https://store.steampowered.com/news/app/291550/view/1845383656397136",
+      "categories": [
+        "other"
+      ]
     },
     {
       "id": "1845383656378485",
       "title": "Brawlhalla World Championship Twitch Drops Revealed",
       "date": "2026-09-30T17:30:54+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1845383656378485"
+      "url": "https://store.steampowered.com/news/app/291550/view/1845383656378485",
+      "categories": [
+        "esports"
+      ]
     },
     {
       "id": "1844751498227589",
       "title": "Earn Free Items During the Autumn Championship Doubles Weekend",
       "date": "2026-09-26T16:54:04+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1844751498227589"
+      "url": "https://store.steampowered.com/news/app/291550/view/1844751498227589",
+      "categories": [
+        "esports"
+      ]
     },
     {
       "id": "1844115010495627",
       "title": "Earn Free Items During the Autumn Championship Singles Weekend",
       "date": "2026-09-18T17:36:17+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1844115010495627"
+      "url": "https://store.steampowered.com/news/app/291550/view/1844115010495627",
+      "categories": [
+        "esports"
+      ]
     },
     {
       "id": "1843481262705379",
       "title": "Battle Pass Season 14: Elysium Rising – Patch 10.11",
       "date": "2026-09-15T18:36:25+00:00",
       "summary": "Battle Pass Season 14 · 4 bug fixes",
-      "url": "https://store.steampowered.com/news/app/291550/view/1843481262705379"
+      "url": "https://store.steampowered.com/news/app/291550/view/1843481262705379",
+      "categories": [
+        "patch",
+        "battle-pass"
+      ]
     },
     {
       "id": "1842846814456650",
       "title": "NEW BATTLE PASS 14 REVEALED",
       "date": "2026-09-08T20:00:08+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1842846814456650"
+      "url": "https://store.steampowered.com/news/app/291550/view/1842846814456650",
+      "categories": [
+        "battle-pass"
+      ]
     },
     {
       "id": "1842212951304949",
       "title": "Earn Free Items During the Eternal Sports Crew Battle Championship Weekend",
       "date": "2026-08-29T04:41:17+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1842212951304949"
+      "url": "https://store.steampowered.com/news/app/291550/view/1842212951304949",
+      "categories": [
+        "esports"
+      ]
     },
     {
       "id": "1841579228672117",
       "title": "Community Tournament Weekend Twitch Drops",
       "date": "2026-08-22T19:40:25+00:00",
       "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1841579228672117"
+      "url": "https://store.steampowered.com/news/app/291550/view/1841579228672117",
+      "categories": [
+        "esports"
+      ]
     }
   ],
   "patches": [
@@ -829,5 +867,102 @@
     "results": [],
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
   },
-  "countdowns": []
+  "countdowns": [],
+  "history": {
+    "version": 1,
+    "patchesSince": 2016,
+    "files": [
+      {
+        "year": 2026,
+        "file": "history/2026.json",
+        "posts": 55,
+        "patches": 7,
+        "sha": "57e8acb02e28b801"
+      },
+      {
+        "year": 2025,
+        "file": "history/2025.json",
+        "posts": 81,
+        "patches": 5,
+        "sha": "3e576a628e747ad7"
+      },
+      {
+        "year": 2024,
+        "file": "history/2024.json",
+        "posts": 75,
+        "patches": 5,
+        "sha": "4da123de75a4a7e9"
+      },
+      {
+        "year": 2023,
+        "file": "history/2023.json",
+        "posts": 58,
+        "patches": 10,
+        "sha": "2e60249d70e26016"
+      },
+      {
+        "year": 2022,
+        "file": "history/2022.json",
+        "posts": 57,
+        "patches": 5,
+        "sha": "d6926fe57f272b0e"
+      },
+      {
+        "year": 2021,
+        "file": "history/2021.json",
+        "posts": 55,
+        "patches": 5,
+        "sha": "42749b0cd70b7e0f"
+      },
+      {
+        "year": 2020,
+        "file": "history/2020.json",
+        "posts": 60,
+        "patches": 8,
+        "sha": "83066e64d0646751"
+      },
+      {
+        "year": 2019,
+        "file": "history/2019.json",
+        "posts": 68,
+        "patches": 9,
+        "sha": "200f48fb96d58162"
+      },
+      {
+        "year": 2018,
+        "file": "history/2018.json",
+        "posts": 44,
+        "patches": 13,
+        "sha": "23e74e9ac2edb4f5"
+      },
+      {
+        "year": 2017,
+        "file": "history/2017.json",
+        "posts": 50,
+        "patches": 26,
+        "sha": "d6178aa3c9e121b6"
+      },
+      {
+        "year": 2016,
+        "file": "history/2016.json",
+        "posts": 60,
+        "patches": 20,
+        "sha": "7b665531edcb9805"
+      },
+      {
+        "year": 2015,
+        "file": "history/2015.json",
+        "posts": 78,
+        "patches": 0,
+        "sha": "cf32a9b0de6d9789"
+      },
+      {
+        "year": 2014,
+        "file": "history/2014.json",
+        "posts": 28,
+        "patches": 0,
+        "sha": "8c6af5cfb5104d78"
+      }
+    ]
+  }
 }

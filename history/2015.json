@@ -1,0 +1,787 @@
+{
+  "version": 1,
+  "year": 2015,
+  "news": [
+    {
+      "id": "341510664138197884",
+      "title": "Free Legend Rotation 12/30",
+      "date": "2015-12-30T20:07:51+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341510664138197884",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "341510664115946752",
+      "title": "Free Legend Rotation 12/24",
+      "date": "2015-12-24T16:20:13+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341510664115946752",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "377538916266481048",
+      "title": "2.4.2 - Patch Notes",
+      "date": "2015-12-18T15:48:26+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/377538916266481048",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "377538916260297349",
+      "title": "Patch 2.4 - Happy Brawlidays!",
+      "date": "2015-12-16T22:44:15+00:00",
+      "summary": "4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/377538916260297349",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "377538916260284745",
+      "title": "Patch 2.4 Balance Notes",
+      "date": "2015-12-16T22:39:14+00:00",
+      "summary": "22 balance changes",
+      "url": "https://store.steampowered.com/news/app/291550/view/377538916260284745",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "377538367932836994",
+      "title": "2.3.2 Patch Notes",
+      "date": "2015-12-10T15:47:57+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/377538367932836994",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "377537649170752936",
+      "title": "2.3.1 Patch Notes & Rotation",
+      "date": "2015-12-03T00:46:45+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/377537649170752936",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "377537649170749612",
+      "title": "2.3.1 Balance Notes",
+      "date": "2015-12-03T00:45:26+00:00",
+      "summary": "22 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/377537649170749612",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "377537016001582470",
+      "title": "2.2.2 Patch Notes + Weekly Legend Rotation",
+      "date": "2015-11-25T16:51:30+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/377537016001582470",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "377536475379617275",
+      "title": "Patch 2.2 - Fast Falling, Power Viewer and More",
+      "date": "2015-11-19T22:38:07+00:00",
+      "summary": "1 balance change · 11 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/377536475379617275",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "377536475379614838",
+      "title": "Weekly Legend Rotation 11/19",
+      "date": "2015-11-19T22:37:09+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/377536475379614838",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "378661646681445777",
+      "title": "2.1 Patch Notes - The Bow Update",
+      "date": "2015-11-11T22:23:40+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/378661646681445777",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "378661646681426062",
+      "title": "Patch 2.1 - Balance Notes",
+      "date": "2015-11-11T22:15:49+00:00",
+      "summary": "11 balance changes · 6 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/378661646681426062",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "378661646681388626",
+      "title": "Weekly Legend Rotation - 11/11",
+      "date": "2015-11-11T22:00:54+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/378661646681388626",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "378661012838155937",
+      "title": "New Free Legend Rotation for 11/3",
+      "date": "2015-11-04T01:07:52+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/378661012838155937",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "378660375674041696",
+      "title": "Brawlhalla Patch 2.0!",
+      "date": "2015-10-30T00:43:54+00:00",
+      "summary": "1 balance change · 17 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/378660375674041696",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "371904442469696027",
+      "title": "New Free Legend Rotation for 10/27",
+      "date": "2015-10-27T19:29:52+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/371904442469696027",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "371904342325117728",
+      "title": "1.20.2 Patch Notes",
+      "date": "2015-10-21T23:21:56+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/371904342325117728",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "371904342321960514",
+      "title": "Patch Notes 1.20.1",
+      "date": "2015-10-21T02:23:47+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/371904342321960514",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "371904342321945231",
+      "title": "Balance Notes - 1.20.1",
+      "date": "2015-10-21T02:17:42+00:00",
+      "summary": "12 balance changes · 5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/371904342321945231",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "371904342321918602",
+      "title": "Free Legend Rotation - 10/20",
+      "date": "2015-10-21T02:07:05+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/371904342321918602",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "369651273097918821",
+      "title": "Patch Notes: Beta v1.19.5",
+      "date": "2015-10-13T17:55:06+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/369651273097918821",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "369651273097910661",
+      "title": "Free Legend Rotation - 10/13",
+      "date": "2015-10-13T17:51:51+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/369651273097910661",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "369651273083531978",
+      "title": "Patch Notes: Beta v1.19.4",
+      "date": "2015-10-09T18:21:44+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/369651273083531978",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "369651273083531672",
+      "title": "Balance Notes: Beta v 1.19.4",
+      "date": "2015-10-09T18:21:37+00:00",
+      "summary": "19 balance changes · 9 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/369651273083531672",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "369651273075768650",
+      "title": "Free Legend Rotation - 10/7",
+      "date": "2015-10-07T14:48:03+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/369651273075768650",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "371902438120817196",
+      "title": "Free Legend Rotation - 9/30",
+      "date": "2015-09-30T17:48:30+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/371902438120817196",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131238863",
+      "title": "Patch Notes: Beta v1.18.2",
+      "date": "2015-09-25T14:55:59+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131238863",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131238921",
+      "title": "Patch Notes: Beta v 1.18.0",
+      "date": "2015-09-24T23:44:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131238921",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131238988",
+      "title": "Balance Notes: Beta v 1.18.0",
+      "date": "2015-09-24T23:34:11+00:00",
+      "summary": "14 balance changes · 5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131238988",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131239046",
+      "title": "Free Legend Rotation - 9/23",
+      "date": "2015-09-23T15:19:02+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239046",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239119",
+      "title": "Free Legend Rotation - 9/16",
+      "date": "2015-09-16T15:46:56+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239119",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239182",
+      "title": "Patch Notes: Beta v 1.17.2",
+      "date": "2015-09-14T21:21:48+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239182",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239248",
+      "title": "Patch Notes: Beta v 1.17.0",
+      "date": "2015-09-11T21:17:00+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239248",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239313",
+      "title": "Balance Notes: Beta v 1.17.0",
+      "date": "2015-09-11T21:16:37+00:00",
+      "summary": "21 balance changes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239313",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131239371",
+      "title": "Free Legend Rotation - 9/9",
+      "date": "2015-09-09T15:05:38+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239371",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239429",
+      "title": "Patch Notes: Beta v 1.16.4",
+      "date": "2015-09-02T16:52:08+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239429",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239488",
+      "title": "Free Legend Rotation - 9/2",
+      "date": "2015-09-02T15:34:25+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239488",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239544",
+      "title": "Patch Notes: Beta v 1.16.3",
+      "date": "2015-08-28T18:26:46+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239544",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239598",
+      "title": "Patch Notes: Beta v 1.16.2",
+      "date": "2015-08-27T09:17:14+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239598",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239656",
+      "title": "Patch Notes: Beta v 1.16.0",
+      "date": "2015-08-27T02:42:02+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239656",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239714",
+      "title": "Patch Notes: Beta v 1.15.1",
+      "date": "2015-08-07T15:33:44+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239714",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239779",
+      "title": "Patch Notes: Beta v 1.15.0",
+      "date": "2015-08-06T19:58:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239779",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239840",
+      "title": "Balance Notes: Beta v 1.15.0",
+      "date": "2015-08-06T19:52:30+00:00",
+      "summary": "6 balance changes · 5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239840",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131239896",
+      "title": "Patch Notes: Beta v1.14.2",
+      "date": "2015-07-28T16:17:59+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239896",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131239959",
+      "title": "Patch Notes: Beta v1.14.0 Part 1",
+      "date": "2015-07-24T23:08:37+00:00",
+      "summary": "19 balance changes · 4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131239959",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131240025",
+      "title": "Patch Notes: Beta v1.14.0 Part 2",
+      "date": "2015-07-24T23:06:54+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240025",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240081",
+      "title": "Balance Notes v1.13.0",
+      "date": "2015-07-11T22:25:17+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240081",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240141",
+      "title": "Patch Notes: Beta v 1.13.0 Part 1",
+      "date": "2015-07-10T17:46:05+00:00",
+      "summary": "30 balance changes · 4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240141",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131240200",
+      "title": "Patch Notes: Beta v 1.13.0 Part 2",
+      "date": "2015-07-10T17:45:46+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240200",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240260",
+      "title": "Patch Notes: Beta v 1.12.5",
+      "date": "2015-06-26T04:01:50+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240260",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240317",
+      "title": "Patch Notes: Beta v 1.12.3",
+      "date": "2015-06-18T21:44:33+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240317",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240377",
+      "title": "Patch Notes: Beta v 1.12.0",
+      "date": "2015-06-18T03:54:25+00:00",
+      "summary": "3 balance changes · 15 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240377",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131240438",
+      "title": "Patch Notes: Beta v 1.11.0",
+      "date": "2015-05-29T21:54:28+00:00",
+      "summary": "14 balance changes · 2 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240438",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131240504",
+      "title": "Patch Notes: Beta v 1.10.1",
+      "date": "2015-05-23T03:44:51+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240504",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240560",
+      "title": "Patch Notes: Beta v 1.9.1",
+      "date": "2015-05-08T19:51:35+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240560",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240614",
+      "title": "Patch Notes: Beta v 1.9.0",
+      "date": "2015-05-07T20:41:24+00:00",
+      "summary": "21 balance changes · 6 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240614",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131240675",
+      "title": "Patch Notes: Beta v 1.8.8",
+      "date": "2015-04-24T21:21:39+00:00",
+      "summary": "3 balance changes · 5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240675",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131240729",
+      "title": "Patch Notes: Beta v 1.8.7",
+      "date": "2015-04-23T22:23:20+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240729",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240792",
+      "title": "Patch Notes: Beta v 1.8.6",
+      "date": "2015-04-17T20:47:19+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240792",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240847",
+      "title": "Patch Notes: Beta v 1.8.5",
+      "date": "2015-04-14T21:42:56+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240847",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240912",
+      "title": "Patch Notes: Beta v 1.8.4",
+      "date": "2015-04-13T23:13:37+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240912",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131240981",
+      "title": "The Axe has fallen!",
+      "date": "2015-04-10T14:43:53+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131240981",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241041",
+      "title": "Patch Notes: Beta v 1.8.0",
+      "date": "2015-04-10T14:43:44+00:00",
+      "summary": "3 balance changes · 16 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241041",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131241108",
+      "title": "Grand Tournament 2!",
+      "date": "2015-03-26T16:37:54+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241108",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "3819571572131241165",
+      "title": "1v1 Ranked Leaderboards!",
+      "date": "2015-03-25T19:50:10+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241165",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241227",
+      "title": "Patch Notes: Beta v 1.7.2",
+      "date": "2015-03-24T16:55:35+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241227",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241287",
+      "title": "First New Specials, Stat Rework, Friends List!",
+      "date": "2015-03-19T22:16:13+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241287",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241345",
+      "title": "Patch Notes: Beta v 1.7.0",
+      "date": "2015-03-19T22:15:56+00:00",
+      "summary": "2 balance changes · 6 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241345",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131241404",
+      "title": "Patch Notes: Beta v 1.6.2",
+      "date": "2015-02-27T22:45:09+00:00",
+      "summary": "2 balance changes · 5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241404",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131241464",
+      "title": "1v1 Ranked and Community Requests!",
+      "date": "2015-02-20T00:31:04+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241464",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241525",
+      "title": "Patch Notes: Beta v 1.6.1",
+      "date": "2015-02-20T00:30:06+00:00",
+      "summary": "4 balance changes · 11 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241525",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131241592",
+      "title": "Patch Notes: Beta v 1.5.3",
+      "date": "2015-01-30T23:07:28+00:00",
+      "summary": "3 balance changes · 1 bug fix",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241592",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131241656",
+      "title": "Back from PAX South!",
+      "date": "2015-01-30T18:07:12+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241656",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241716",
+      "title": "Patch Notes: Beta v 1.5.2",
+      "date": "2015-01-30T18:07:00+00:00",
+      "summary": "8 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241716",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131241783",
+      "title": "Patch Notes: Beta v 1.5.1",
+      "date": "2015-01-21T20:30:16+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241783",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241849",
+      "title": "Spectate and New Character!",
+      "date": "2015-01-09T22:07:11+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241849",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131241908",
+      "title": "Patch Notes: Beta v 1.4.1",
+      "date": "2015-01-09T22:06:46+00:00",
+      "summary": "2 balance changes · 14 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131241908",
+      "categories": [
+        "patch"
+      ]
+    }
+  ],
+  "patches": []
+}

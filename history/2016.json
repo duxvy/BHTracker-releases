@@ -1,0 +1,4222 @@
+{
+  "version": 1,
+  "year": 2016,
+  "news": [
+    {
+      "id": "3819571572131233537",
+      "title": "Happy Brawlidays! - Patch 2.41",
+      "date": "2016-12-21T22:04:00+00:00",
+      "summary": "9 balance changes · 3 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233537",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131233600",
+      "title": "Season 3! - Patch Notes 2.40",
+      "date": "2016-12-15T01:23:47+00:00",
+      "summary": "20 balance changes · 1 bug fix",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233600",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131233660",
+      "title": "Patch 2.39 - The Cosmic Chest + Balance Improvements!",
+      "date": "2016-12-07T23:39:24+00:00",
+      "summary": "13 balance changes · 6 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233660",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "3819571572131233728",
+      "title": "Patch Notes - 2.38.1",
+      "date": "2016-11-30T22:14:38+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233728",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "3819571572131233787",
+      "title": "Patch 2.38 - Balance, New KO Effect, Flag Avatars and More!",
+      "date": "2016-11-23T18:30:53+00:00",
+      "summary": "27 balance changes · 3 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233787",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "127619582116965079",
+      "title": "Patch 2.37 - New Legend!",
+      "date": "2016-11-17T01:00:59+00:00",
+      "summary": "1 bug fix",
+      "url": "https://store.steampowered.com/news/app/291550/view/127619582116965079",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "136626147594968252",
+      "title": "Patch Notes - Patch 2.36",
+      "date": "2016-11-09T20:57:50+00:00",
+      "summary": "4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/136626147594968252",
+      "categories": [
+        "patch",
+        "esports"
+      ]
+    },
+    {
+      "id": "182787402037545083",
+      "title": "Patch 2.35 - The Last Week of Brawlhalloween",
+      "date": "2016-11-02T18:49:07+00:00",
+      "summary": "Brawlhalloween event · 4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/182787402037545083",
+      "categories": [
+        "patch",
+        "event"
+      ]
+    },
+    {
+      "id": "212060165289572557",
+      "title": "Brawlhalloween! - Patch 2.34",
+      "date": "2016-10-26T23:38:55+00:00",
+      "summary": "Brawlhalloween event · 2 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/212060165289572557",
+      "categories": [
+        "patch",
+        "event"
+      ]
+    },
+    {
+      "id": "234577531160339439",
+      "title": "Patch 2.33 - The Last Balance Patch Before BCX",
+      "date": "2016-10-20T00:39:49+00:00",
+      "summary": "31 balance changes · 3 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/234577531160339439",
+      "categories": [
+        "patch",
+        "esports"
+      ]
+    },
+    {
+      "id": "241332296591434594",
+      "title": "Patch 2.32! Chain Dodging and the Imperial Chest!",
+      "date": "2016-10-12T17:38:09+00:00",
+      "summary": "3 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/241332296591434594",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243583460799610249",
+      "title": "Patch 2.31.1 - Throw Adjustments and Bugs",
+      "date": "2016-10-06T16:35:15+00:00",
+      "summary": "7 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/243583460799610249",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243583460796906816",
+      "title": "Patch 2.31 - Flag Taunt, Avatars, Test Features, Balance and More!",
+      "date": "2016-10-05T22:37:58+00:00",
+      "summary": "12 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/243583460796906816",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243582826882237401",
+      "title": "Patch 2.30 - New Legend Ragnir Arrives!",
+      "date": "2016-09-28T21:44:05+00:00",
+      "summary": "4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/243582826882237401",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243582192023656348",
+      "title": "Season 2! - Patch 2.29",
+      "date": "2016-09-22T02:16:02+00:00",
+      "summary": "18 balance changes · 4 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/243582192023656348",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243581623177477463",
+      "title": "Patch 2.28 - Legend Pages, Training Room UI and More!",
+      "date": "2016-09-14T22:44:45+00:00",
+      "summary": "3 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/243581623177477463",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243580289136645713",
+      "title": "Patch Notes 2.27",
+      "date": "2016-09-07T22:02:40+00:00",
+      "summary": "9 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/243580289136645713",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "243580289111494425",
+      "title": "Patch Notes 2.26 - Test Maps!",
+      "date": "2016-08-31T22:59:49+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/243580289111494425",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "250335145778158146",
+      "title": "New Legend Val! - Patch Notes 2.25",
+      "date": "2016-08-25T02:20:18+00:00",
+      "summary": "11 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/250335145778158146",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "252586225970112070",
+      "title": "Patch 2.24 - Patch Notes",
+      "date": "2016-08-17T19:17:03+00:00",
+      "summary": "5 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/252586225970112070",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "252584970552740900",
+      "title": "Patch 2.23 - Patch Notes",
+      "date": "2016-08-10T19:45:04+00:00",
+      "summary": "15 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/252584970552740900",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "252584970527916571",
+      "title": "2.22 Patch Notes",
+      "date": "2016-08-03T22:51:40+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/252584970527916571",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "252584317719394491",
+      "title": "Patch 2.21 - Patch Notes",
+      "date": "2016-07-27T19:52:06+00:00",
+      "summary": "7 balance changes · 16 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/252584317719394491",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "251457560639764020",
+      "title": "Patch 2.20.2 - Vive la Révolucien!",
+      "date": "2016-07-20T18:47:21+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/251457560639764020",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "258212550623988475",
+      "title": "Wu Shang Update! - Patch 2.20",
+      "date": "2016-07-14T02:20:31+00:00",
+      "summary": "24 balance changes · 13 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/258212550623988475",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "257086017095937869",
+      "title": "Summer Update! - Patch 2.19",
+      "date": "2016-07-07T00:35:34+00:00",
+      "summary": "7 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/257086017095937869",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "250329347088753851",
+      "title": "Patch Notes 2.18 - Odin's Chest Update",
+      "date": "2016-06-30T04:07:50+00:00",
+      "summary": "15 balance changes · 13 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/250329347088753851",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "250329347061809206",
+      "title": "2.17.1 Patch Notes",
+      "date": "2016-06-22T17:10:28+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/250329347061809206",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "250328813704092367",
+      "title": "The Brawlhalla Championship Series Begins!",
+      "date": "2016-06-18T16:45:42+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/250328813704092367",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "250328712422508051",
+      "title": "Patch 2.17 - New Taunt, Training Options and Balance!",
+      "date": "2016-06-15T22:36:40+00:00",
+      "summary": "38 balance changes · 16 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/250328712422508051",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "249202181057783676",
+      "title": "2.16.3 - New Legend Rotation",
+      "date": "2016-06-08T15:13:43+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/249202181057783676",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "249201544483577148",
+      "title": "The Gauntlets Update - Patch 2.16",
+      "date": "2016-06-02T01:14:23+00:00",
+      "summary": "4 balance changes · 8 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/249201544483577148",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "255956312797274793",
+      "title": "Clan System - Patch 2.15",
+      "date": "2016-05-26T02:23:02+00:00",
+      "summary": "2 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/255956312797274793",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "255955672053972886",
+      "title": "Patch 2.14 - Dodgebomb, Party Time, Balance and more!",
+      "date": "2016-05-18T21:38:51+00:00",
+      "summary": "10 balance changes · 9 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/255955672053972886",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "255955041673523569",
+      "title": "2.13.3 Patch Notes",
+      "date": "2016-05-11T18:10:06+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/255955041673523569",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "255954406936231063",
+      "title": "Patch 2.13.1 - Balance Pass and More!",
+      "date": "2016-05-04T20:25:59+00:00",
+      "summary": "24 balance changes · 32 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/255954406936231063",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "255953775612503833",
+      "title": "Jhala - Patch 2.13",
+      "date": "2016-04-28T02:35:39+00:00",
+      "summary": "1 balance change · 1 bug fix",
+      "url": "https://store.steampowered.com/news/app/291550/view/255953775612503833",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "255953140169451968",
+      "title": "2.12.3 Patch Notes - Skins, Balance and More",
+      "date": "2016-04-20T21:15:30+00:00",
+      "summary": "24 balance changes · 10 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/255953140169451968",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "260454846527788048",
+      "title": "2.12.2 Patch Notes",
+      "date": "2016-04-13T21:37:35+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/260454846527788048",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "260454846524221361",
+      "title": "Quality of Life Features - You Tell Us",
+      "date": "2016-04-12T21:56:14+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/260454846524221361",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "260454846502034389",
+      "title": "New Patch! - 2.12 Patch Notes",
+      "date": "2016-04-06T18:34:32+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/260454846502034389",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "260454846477420143",
+      "title": "Diana The Hunter - Patch Notes 2.11",
+      "date": "2016-03-30T23:05:40+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/260454846477420143",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "272839101167413406",
+      "title": "Season 1 Update! - Patch Notes 2.10",
+      "date": "2016-03-23T18:11:30+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/272839101167413406",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "272838467468462146",
+      "title": "2.9.2 Patch Notes",
+      "date": "2016-03-16T22:23:52+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/272838467468462146",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "295355835668447129",
+      "title": "2.9.1 Patch Notes",
+      "date": "2016-03-09T19:15:47+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/295355835668447129",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "295355202036602673",
+      "title": "2.9 Patch Notes",
+      "date": "2016-03-02T23:28:26+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/295355202036602673",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "295354567830655462",
+      "title": "2.8.2 Patch Notes and Legend Rotation",
+      "date": "2016-02-24T17:02:18+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/295354567830655462",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "295354025622751625",
+      "title": "2.8 Patch Notes - Happy Valhallentine's!",
+      "date": "2016-02-18T05:12:08+00:00",
+      "summary": "Valhallentine event",
+      "url": "https://store.steampowered.com/news/app/291550/view/295354025622751625",
+      "categories": [
+        "event"
+      ]
+    },
+    {
+      "id": "295353300233731858",
+      "title": "New Weekly Legend Rotation (And Sales!)",
+      "date": "2016-02-11T02:47:00+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/295353300233731858",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "295352659735776330",
+      "title": "2.7.1 Patch Notes",
+      "date": "2016-02-05T22:43:21+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/295352659735776330",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "295352659731247676",
+      "title": "2.7 Patch Notes",
+      "date": "2016-02-04T16:38:47+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/295352659731247676",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "341514010375892099",
+      "title": "2.6.2 Patch Notes",
+      "date": "2016-01-28T01:16:26+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341514010375892099",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "341514010375888032",
+      "title": "Balance Changes - Patch 2.6.2",
+      "date": "2016-01-28T01:14:49+00:00",
+      "summary": "22 balance changes · 6 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/341514010375888032",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "341514010375880440",
+      "title": "New Legend Rotation - Patch 2.6.2",
+      "date": "2016-01-28T01:11:47+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341514010375880440",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "341513927896989249",
+      "title": "Brawlhalla World Championship - $50,000+ Prize Pool this Fall",
+      "date": "2016-01-27T17:16:25+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341513927896989249",
+      "categories": [
+        "esports"
+      ]
+    },
+    {
+      "id": "341513286999506161",
+      "title": "2.5.3 - Patch Notes",
+      "date": "2016-01-21T02:09:17+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341513286999506161",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "341512658306304908",
+      "title": "2.5.1 - Patch Notes + New Legend Rotation",
+      "date": "2016-01-13T23:42:56+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341512658306304908",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "341512023073616391",
+      "title": "2.5 - Patch Notes",
+      "date": "2016-01-06T22:44:28+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341512023073616391",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "341512023073609941",
+      "title": "2.5 - Balance Notes",
+      "date": "2016-01-06T22:41:53+00:00",
+      "summary": "20 balance changes",
+      "url": "https://store.steampowered.com/news/app/291550/view/341512023073609941",
+      "categories": [
+        "patch"
+      ]
+    },
+    {
+      "id": "341512023073601319",
+      "title": "1/6/16 - This Week's Free Legend Rotation",
+      "date": "2016-01-06T22:38:27+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/341512023073601319",
+      "categories": [
+        "other"
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "name": "Patch 2.41",
+      "title": "Happy Brawlidays! - Patch 2.41",
+      "date": "2016-12-21T22:04:00+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233537",
+      "subjects": [
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (fixed) 0 → 1",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "force (variable) 43 → 42",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "force (variable) 46 → 45",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "damage (ground slam) 13 → 11",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "recovery (fixed, on miss) 1 → 0",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Diana",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "force (variable) 51 → 48",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Azoth",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Axe",
+              "fact": "min charge 9 → 7",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Barraza",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Blasters",
+              "fact": "min charge 9 → 8",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Koji",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Sword",
+              "fact": "min charge 13 → 12",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.40",
+      "title": "Season 3! - Patch Notes 2.40",
+      "date": "2016-12-15T01:23:47+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233600",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on miss) 21 → 20",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Rocket Lance",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on miss) 18 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on hit) 10 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage 27 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "damage 27 → 25",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 27 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on hit) 29 → 26",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on miss) 13 → 12",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (variable, on hit) 20 → 19",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (variable, on miss) 24 → 23",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on miss) 21 → 20",
+              "dir": 1
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "damage 27 → 25",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 26 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on hit) 14 → 13",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (variable, on miss) 10 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on hit) 14 → 13",
+              "dir": 1
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "damage 27 → 25",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on miss) 26 → 25",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Katar Down Light",
+              "fact": "recovery (variable, on hit) 10 → 9",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on miss) 10 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable) 13 → 12",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on hit) 18 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on miss) 21 → 20",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on miss) 17 → 16",
+              "dir": 1
+            },
+            {
+              "move": "Recovery",
+              "fact": "time to hit 8 → 10",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.39",
+      "title": "Patch 2.39 - The Cosmic Chest + Balance Improvements!",
+      "date": "2016-12-07T23:39:24+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233660",
+      "subjects": [
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "time to hit 10 → 8",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Azoth",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "recovery (fixed) 21 → 19",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Brynn",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Spear",
+              "fact": "min charge 8 → 6",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Diana",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "min charge 7 → 5",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "min charge 7 → 6",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Bow",
+              "fact": "time to hit (after charge) 7 → 6",
+              "dir": 1
+            },
+            {
+              "move": "Side Bow",
+              "fact": "damage 20 → 23",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Jhala",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Sword",
+              "fact": "min charge 10 → 8",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kor",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "fact": "min charge 8 → 6",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Hammer",
+              "fact": "min charge 8 → 5",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Queen Nai",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Spear",
+              "fact": "recovery (fixed) 18 → 16",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sir Roland",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Lance",
+              "fact": "min charge 5 → 4",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Lance",
+              "fact": "recovery (fixed) 15 → 14",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Blasters",
+              "fact": "min charge 16 → 13",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.38",
+      "title": "Patch 2.38 - Balance, New KO Effect, Flag Avatars and More!",
+      "date": "2016-11-23T18:30:53+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/3819571572131233787",
+      "subjects": [
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "stun 29 → 31",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 15 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "time to hit 15 → 14",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "damage 19 → 20",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "stun 25 → 24",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "recovery (variable, on miss) 25 → 19",
+              "dir": 1
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery (fixed, on miss) 1 → 5",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "time to hit 16 → 15",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "stun 18 → 21",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Rocket Lance",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "recovery (variable, on miss) 16 → 13",
+              "dir": 1
+            },
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 21 → 19",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (fixed, on miss) 0 → 2",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "stun 15 → 13",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "stun 22 → 20",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "force (variable) 34 → 32",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 23 → 21",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "fact": "stun 21 → 20",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "force (fixed) 57 → 55",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "stun 20 → 18",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Azoth",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "min charge 17 → 15",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Barraza",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "recovery (fixed) 17 → 16",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gnash",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Hammer",
+              "fact": "damage 20 → 22",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Spear",
+              "fact": "damage 16 → 19",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kor",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "fact": "recovery (fixed) 26 → 24",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ragnir",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katars",
+              "fact": "damage 22 → 20",
+              "dir": -1
+            },
+            {
+              "move": "Side Katars",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Blasters",
+              "fact": "recovery (fixed) 27 → 23",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Blasters",
+              "fact": "min charge 14 → 12",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ulgrim",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Axe",
+              "fact": "recovery (fixed, on miss) 9 → 8",
+              "dir": 1
+            },
+            {
+              "move": "Down Lance",
+              "fact": "recovery (fixed, on miss) 11 → 10",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.33",
+      "title": "Patch 2.33 - The Last Balance Patch Before BCX",
+      "date": "2016-10-20T00:39:49+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/234577531160339439",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "force (variable) 9 → 5",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "fact": "recovery (fixed, after release) 1 → 2",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "recovery (fixed, on miss) 1 → 2",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Rocket Lance",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "fact": "recovery (fixed, on hit) 1 → 0",
+              "dir": 1
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "recovery (variable, on hit) 15 → 13",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "damage 16 → 15",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "time to hit 8 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 14 → 16",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 15 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "damage 18 → 16",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "force (variable) 49 → 47",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 13 → 12",
+              "dir": -1
+            },
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (fixed, on miss) 1 → 0",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 20 → 18",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (fixed, on miss) 6 → 8",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "time to hit 9 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 20 → 18",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "fact": "time to hit 10 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "stun 25 → 21",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 12 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "time to hit 10 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage 16 → 14",
+              "dir": -1
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "damage 22 → 19",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Lucien",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Katar",
+              "fact": "force (variable) 63 → 60",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Hammer",
+              "fact": "recovery (fixed) 17 → 19",
+              "dir": -1
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "damage 30 → 28",
+              "dir": -1
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "force (variable) 56 → 55",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Koji",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "recovery (fixed) 17 → 19",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Bow",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "fact": "force (variable) 51 → 50",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "fact": "force (fixed) 75 → 73",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ragnir",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katar",
+              "fact": "damage 24 → 22",
+              "dir": -1
+            },
+            {
+              "move": "Side Katar",
+              "fact": "force (variable) 51 → 49",
+              "dir": 0
+            },
+            {
+              "move": "Side Katar",
+              "fact": "recovery (fixed) 13 → 15",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kor",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Gauntlet",
+              "fact": "recovery (fixed) 17 → 19",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Asuri",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Katar",
+              "fact": "min charge 13 → 11",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Katar",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sir Roland",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Sword",
+              "fact": "recovery (fixed) 15 → 16",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "fact": "force (fixed) 71 → 69",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Blasters",
+              "fact": "min charge 16 → 14",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Barraza",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Axe",
+              "fact": "min charge 8 → 6",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.31",
+      "title": "Patch 2.31 - Flag Taunt, Avatars, Test Features, Balance and More!",
+      "date": "2016-10-05T22:37:58+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/243583460796906816",
+      "subjects": [
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "fact": "cooldown 12 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "time to hit 6 → 9",
+              "dir": -1
+            },
+            {
+              "move": "Recovery",
+              "fact": "damage 24 → 20",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "stun 20 → 18",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "recovery (variable, on miss) 21 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "stun 18 → 20",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "force (variable) 25 → 10",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "force (fixed) 60 → 50",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 10 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on miss) 12 → 10",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (fixed, on miss) 1 → 0",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "fact": "force (fixed) 86 → 76",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "damage 15 → 17",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.29",
+      "title": "Season 2! - Patch 2.29",
+      "date": "2016-09-22T02:16:02+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/243582192023656348",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "damage 26 → 24",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "force (variable, second hit) 32 → 25",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "stun 33 → 21",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "time to hit 13 → 12",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "recovery (variable, on miss) 22 → 16",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (fixed, on miss) 0 → 1",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage 24 → 22",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "recovery (fixed) 1 → 3",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on miss) 23 → 20",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (fixed, on miss) 2 → 6",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hattori",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Sword",
+              "fact": "recovery (fixed) 15 → 18",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Sword",
+              "fact": "recovery (fixed) 24 → 22",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Brynn",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "min charge 9 → 7",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Asuri",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Katar",
+              "fact": "force (variable) 61 → 57",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "damage 22 → 24",
+              "dir": 1
+            },
+            {
+              "move": "Down Bow",
+              "fact": "force (variable, air) 35 → 40",
+              "dir": 0
+            },
+            {
+              "move": "Down Bow (air version)",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Koji",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Bow",
+              "fact": "recovery (fixed) 15 → 22",
+              "dir": -1
+            },
+            {
+              "move": "Down Sword",
+              "fact": "min charge 15 → 13",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.27",
+      "title": "Patch Notes 2.27",
+      "date": "2016-09-07T22:02:40+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/243580289136645713",
+      "subjects": [
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "recovery (fixed, on miss, ground collision version) 0 → 2",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "recovery (fixed, on miss) 1 → 3",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "fact": "hit window (ground collision version) 8 → 6",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "time to hit 13 → 14",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "damage 28 → 26",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "force (variable) 35 → 37",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "time to hit 8 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "damage 14 → 15",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katars",
+              "fact": "force (variable) 62 → 60",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orion",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Lance",
+              "fact": "force (variable) 50 → 53",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.25",
+      "title": "New Legend Val! - Patch Notes 2.25",
+      "date": "2016-08-25T02:20:18+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/250335145778158146",
+      "subjects": [
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "fact": "cooldown 0 → 12",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Rocket Lance",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "force (variable) 56 → 54",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "recovery (variable) 10 → 14",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "force (variable) 50 → 48",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sir Roland",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Sword",
+              "fact": "force (variable) 56 → 54",
+              "dir": 0
+            },
+            {
+              "move": "Down Sword",
+              "fact": "force (variable) 47 → 48",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Lucien",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Katars",
+              "fact": "damage (final hit) 13 → 15",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ulgrim",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Lance",
+              "fact": "force (variable) 51 → 50",
+              "dir": 0
+            },
+            {
+              "move": "Down Lance",
+              "fact": "force (variable) 44 → 46",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.23",
+      "title": "Patch 2.23 - Patch Notes",
+      "date": "2016-08-10T19:45:04+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/252584970552740900",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "recovery (variable) 15 → 14",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 16 → 15",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (variable, on miss) 19 → 23",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage 21 → 20",
+              "dir": -1
+            },
+            {
+              "move": "Recovery",
+              "fact": "force (variable) 46 → 48",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "fact": "hit window 7 → 5",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "fact": "recovery (fixed, on miss) 1 → 3",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 11 → 13",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Hammer",
+              "fact": "force (variable) 58 → 56",
+              "dir": 0
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "damage 32 → 30",
+              "dir": -1
+            },
+            {
+              "move": "Side Hammer",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Katar",
+              "fact": "damage 15 → 18",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Queen Nai",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katars",
+              "fact": "force (variable) 61 → 59",
+              "dir": 0
+            },
+            {
+              "move": "Side Katars",
+              "fact": "damage 18 → 20",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Scarlet",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Lance",
+              "fact": "force (variable) 53 → 51",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Lance",
+              "fact": "damage 15 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Down Lance",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Blasters",
+              "fact": "min charge 18 → 16",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ada",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Blasters",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.21",
+      "title": "Patch 2.21 - Patch Notes",
+      "date": "2016-07-27T19:52:06+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/252584317719394491",
+      "subjects": [
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "damage 27 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "hit window 12 → 10",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery (variable, on hit) 6 → 8",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery (fixed, on miss) 0 → 2",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "damage 19 → 17",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "recovery (fixed, on miss) 1 → 2",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "time to hit 8 → 9",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.20",
+      "title": "Wu Shang Update! - Patch 2.20",
+      "date": "2016-07-14T02:20:31+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/258212550623988475",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "force (variable) 5 → 9",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "recovery (variable, on hit) 21 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "fact": "time to hit 9 → 10",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "time to hit 18 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Down Air",
+              "fact": "stun 25 → 24",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "time to hit 9 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "fact": "hit window 14 → 10",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "recovery (fixed, on miss) 1 → 3",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "stun 31 → 33",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "stun 20 → 18",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "time to hit 10 → 11",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "fact": "time to hit 19 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "force (variable) 46 → 43",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "recovery (variable, on miss) 17 → 20",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Cassidy",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Blasters",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orion",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Spear",
+              "fact": "force (variable) 55 → 53",
+              "dir": 0
+            },
+            {
+              "move": "Side Spear",
+              "fact": "min charge 10 → 9",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gnash",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Spear",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Koji",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Bow",
+              "fact": "force (variable) 53 → 51",
+              "dir": 0
+            },
+            {
+              "move": "Down Sword",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.18",
+      "title": "Patch Notes 2.18 - Odin's Chest Update",
+      "date": "2016-06-30T04:07:50+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/250329347088753851",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "hit window (first swing) 3 → 2",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 10 → 9",
+              "dir": 1
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery (fixed, on miss) 0 → 1",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gauntlets",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "fact": "time to hit 9 → 10",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orion",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Lance",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Katar",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Diana",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Blasters",
+              "fact": "force (variable) 53 → 48",
+              "dir": 0
+            },
+            {
+              "move": "Down Bow",
+              "fact": "force (variable) 48 → 45",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Bow",
+              "fact": "min charge 8 → 7",
+              "dir": 1
+            },
+            {
+              "move": "Down Blasters",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Jhala",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Sword",
+              "fact": "damage 24 → 26",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kor",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ada",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Blasters",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.17",
+      "title": "Patch 2.17 - New Taunt, Training Options and Balance!",
+      "date": "2016-06-15T22:36:40+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/250328712422508051",
+      "subjects": [
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "force (variable) 26 → 32",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Kor",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Gauntlets",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Cassidy",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Blasters",
+              "fact": "damage 15 → 19",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Blasters",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Asuri",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Sword",
+              "fact": "time to hit 26 → 24",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Sword",
+              "fact": "force (variable) 59 → 58",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ulgrim",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "damage 28 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Side Axe",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Azoth",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "time to hit 29 → 27",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Axe",
+              "dir": 0
+            },
+            {
+              "move": "Side Axe",
+              "dir": 0
+            },
+            {
+              "move": "Down Axe",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orion",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Spear",
+              "dir": 0
+            },
+            {
+              "move": "Side Spear",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hattori",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Sword",
+              "dir": 0
+            },
+            {
+              "move": "Side Sword",
+              "dir": 0
+            },
+            {
+              "move": "Down Sword",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Scarlet",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "dir": 0
+            },
+            {
+              "move": "Side Katar",
+              "dir": 0
+            },
+            {
+              "move": "Down Katar",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Brynn",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Spear",
+              "dir": 0
+            },
+            {
+              "move": "Side Spear",
+              "dir": 0
+            },
+            {
+              "move": "Side Axe",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Bow",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gnash",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.16",
+      "title": "The Gauntlets Update - Patch 2.16",
+      "date": "2016-06-02T01:14:23+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/249201544483577148",
+      "subjects": [
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Light",
+              "fact": "damage 14 → 12",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Blasters",
+              "fact": "time to hit 32 → 29",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Brynn",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Spear",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.14",
+      "title": "Patch 2.14 - Dodgebomb, Party Time, Balance and more!",
+      "date": "2016-05-18T21:38:51+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/255955672053972886",
+      "subjects": [
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "damage 22 → 19",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "fact": "damage 18 → 14",
+              "dir": -1
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gnash",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sir Roland",
+          "kind": "legend",
+          "changes": [],
+          "others": 1
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "fact": "force (variable) 59 → 56",
+              "dir": 0
+            },
+            {
+              "move": "Down Hammer",
+              "fact": "force (fixed) 75 → 70",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "force (variable) 65 → 63",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Orion",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Lance",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.13",
+      "title": "Patch 2.13.1 - Balance Pass and More!",
+      "date": "2016-05-04T20:25:59+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/255954406936231063",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "recovery (on miss) 10 → 15",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 4 → 5",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "time to hit 14 → 13",
+              "dir": 1
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 3 → 4",
+              "dir": -1
+            },
+            {
+              "move": "Recovery",
+              "fact": "damage 10 → 12",
+              "dir": 1
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Katars",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Katar Neutral Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "fact": "hit window 4 → 5",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "hit window 4 → 5",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Queen Nai",
+          "kind": "legend",
+          "changes": [],
+          "others": 1
+        },
+        {
+          "name": "Hattori",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Sword",
+              "fact": "force (variable) 61 → 57",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Lucien",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Blasters",
+              "fact": "time to hit 18 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Katars",
+              "fact": "force (variable) 46 → 48",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ulgrim",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Lance",
+              "fact": "recovery (fixed, on miss) 34 → 31",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Bow",
+              "fact": "time to hit 17 → 15",
+              "dir": 1
+            },
+            {
+              "move": "Side Bow",
+              "dir": 0
+            },
+            {
+              "move": "Down Bow",
+              "dir": 0
+            },
+            {
+              "move": "Down Katars",
+              "fact": "recovery 17 → 19",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Diana",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Bow",
+              "fact": "time to hit 14 → 13",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gnash",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Blasters",
+              "fact": "time to hit 19 → 16",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Balance update",
+      "title": "2.12.3 Patch Notes - Skins, Balance and More",
+      "date": "2016-04-20T21:15:30+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/255953140169451968",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "time to hit 11 → 12",
+              "dir": -1
+            },
+            {
+              "move": "Recovery",
+              "fact": "force (variable) 31 → 32",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 18 → 20",
+              "dir": 1
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "damage (first shot) 17 → 20",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "stun (second blast) 25 → 20",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 9 → 8",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Recovery",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "fact": "startup 26 → 24",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "force (variable) 42 → 45",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "force (fixed) 41 → 35",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "damage 16 → 15",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Cassidy",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "fact": "hit window 14 → 12",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Hammer",
+              "fact": "damage 13 → 15",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Hammer",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Scarlet",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Hammer",
+              "fact": "force (variable) 65 → 63",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Barraza",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "damage 20 → 25",
+              "dir": 1
+            },
+            {
+              "move": "Side Blasters",
+              "fact": "damage 28 → 32",
+              "dir": 1
+            },
+            {
+              "move": "Side Blasters",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ada",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Down Spear",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Patch 2.6",
+      "title": "Balance Changes - Patch 2.6.2",
+      "date": "2016-01-28T01:14:49+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/341514010375888032",
+      "subjects": [
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Down Air",
+              "fact": "recovery (on miss) 23 → 26",
+              "dir": -1
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Light",
+              "fact": "time to hit 3 → 4",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "damage 24 → 19",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery (on hit) 29 → 28",
+              "dir": 1
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery (on miss) 29 → 31",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "fact": "damage 24 → 18",
+              "dir": -1
+            },
+            {
+              "move": "Side Light",
+              "fact": "force (fixed) 67 → 60",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "fact": "damage 13 → 14",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Axe",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Bow",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Light",
+              "fact": "damage 19 → 23",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "fact": "recovery (on miss) 19 → 17",
+              "dir": 1
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "damage 18 → 20",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "force (variable) 40 → 42",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "fact": "force (fixed) 48 → 41",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "force (variable) 40 → 42",
+              "dir": 0
+            },
+            {
+              "move": "Recovery",
+              "fact": "force (variable) 44 → 46",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "fact": "force (variable) 45 → 46",
+              "dir": 0
+            },
+            {
+              "move": "Ground Pound",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ada",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Spear",
+              "fact": "time to hit 19 → 20",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Spear",
+              "dir": 0
+            },
+            {
+              "move": "Down Spear",
+              "fact": "hit window 30 → 34",
+              "dir": 0
+            },
+            {
+              "move": "Down Spear",
+              "fact": "recovery 10 → 13",
+              "dir": -1
+            },
+            {
+              "move": "Down Spear",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Blasters",
+              "fact": "damage 27 → 24",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Blasters",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Katar",
+              "fact": "recovery 17 → 19",
+              "dir": -1
+            },
+            {
+              "move": "Side Katar",
+              "fact": "recovery 16 → 18",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Asuri",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Katar",
+              "fact": "hit window 11 → 17",
+              "dir": 0
+            },
+            {
+              "move": "Side Katar",
+              "dir": 0
+            },
+            {
+              "move": "Side Sword",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Bow",
+              "fact": "recovery 24 → 20",
+              "dir": 1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Thatch",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Sword",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    },
+    {
+      "name": "Balance update",
+      "title": "2.5 - Balance Notes",
+      "date": "2016-01-06T22:41:53+00:00",
+      "url": "https://store.steampowered.com/news/app/291550/view/341512023073609941",
+      "subjects": [
+        {
+          "name": "Sword",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "fact": "damage 20 → 17",
+              "dir": -1
+            },
+            {
+              "move": "Side Air",
+              "fact": "recovery 30 → 32",
+              "dir": -1
+            },
+            {
+              "move": "Neutral Air",
+              "fact": "startup 17 → 16",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Air",
+              "fact": "startup 16 → 15",
+              "dir": 1
+            },
+            {
+              "move": "Down Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Spear",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Side Air",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "fact": "force (variable) 10.5 → 11",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "fact": "force (fixed) 67 → 50",
+              "dir": 0
+            },
+            {
+              "move": "Down Light",
+              "dir": 0
+            },
+            {
+              "move": "Side Light",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Light",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Hammer",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Neutral Air",
+              "dir": 0
+            },
+            {
+              "move": "Side Air",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Blasters",
+          "kind": "weapon",
+          "changes": [
+            {
+              "move": "Ground Pound",
+              "fact": "force (variable) 52 → 50",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Gnash",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Spear",
+              "fact": "force (variable) 57 → 54",
+              "dir": 0
+            },
+            {
+              "move": "Side Spear",
+              "fact": "force (fixed) 77 → 72",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Queen Nai",
+          "kind": "legend",
+          "changes": [],
+          "others": 4
+        },
+        {
+          "name": "Scarlet",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Lance",
+              "fact": "force (variable) 55 → 53",
+              "dir": 0
+            },
+            {
+              "move": "Side Lance",
+              "fact": "force (fixed) 90 → 80",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Sentinel",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Hammer",
+              "fact": "force (variable) 48 → 49",
+              "dir": 0
+            },
+            {
+              "move": "Neutral Hammer",
+              "fact": "force (fixed) 60 → 62",
+              "dir": 0
+            },
+            {
+              "move": "Side Hammer",
+              "fact": "force (variable) 60 → 58",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Lucien",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Blasters",
+              "fact": "recovery (on miss) 18 → 23",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Teros",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Side Axe",
+              "fact": "recovery 23 → 26",
+              "dir": -1
+            }
+          ],
+          "others": 0
+        },
+        {
+          "name": "Ember",
+          "kind": "legend",
+          "changes": [
+            {
+              "move": "Neutral Bow",
+              "fact": "force (variable) 51 → 54",
+              "dir": 0
+            },
+            {
+              "move": "Side Bow",
+              "fact": "recovery 27 → 24",
+              "dir": 1
+            },
+            {
+              "move": "Neutral Katar",
+              "fact": "force (variable) 52 → 50",
+              "dir": 0
+            },
+            {
+              "move": "Down Katar",
+              "fact": "force (variable) 56 → 54",
+              "dir": 0
+            },
+            {
+              "move": "Down Katar",
+              "fact": "force (fixed) 71 → 67",
+              "dir": 0
+            }
+          ],
+          "others": 0
+        }
+      ]
+    }
+  ]
+}
