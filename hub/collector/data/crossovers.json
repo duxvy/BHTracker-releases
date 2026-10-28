@@ -1,0 +1,383 @@
+{
+    "source":  "https://brawlhalla.wiki.gg/api.php (Crossover Skins, and each crossover\u0027s page)",
+    "fetched":  "2026-10-12",
+    "count":  94,
+    "crossovers":  [
+                       {
+                           "name":  "Aang",
+                           "legend":  "Wu Shang"
+                       },
+                       {
+                           "name":  "Ahsoka Tano",
+                           "legend":  "Asuri"
+                       },
+                       {
+                           "name":  "Akuma",
+                           "legend":  "Val"
+                       },
+                       {
+                           "name":  "Alucard",
+                           "legend":  "Ezio"
+                       },
+                       {
+                           "name":  "Amethyst",
+                           "legend":  "Xull"
+                       },
+                       {
+                           "name":  "Anakin Skywalker",
+                           "legend":  "Ezio"
+                       },
+                       {
+                           "name":  "Asuka",
+                           "legend":  "Queen Nai"
+                       },
+                       {
+                           "name":  "Barbara",
+                           "legend":  "Brynn"
+                       },
+                       {
+                           "name":  "Becky Lynch",
+                           "legend":  "Gnash"
+                       },
+                       {
+                           "name":  "Black Knight",
+                           "legend":  "Orion"
+                       },
+                       {
+                           "name":  "Chewbacca",
+                           "legend":  "Thatch"
+                       },
+                       {
+                           "name":  "Chun-Li",
+                           "legend":  "Wu Shang"
+                       },
+                       {
+                           "name":  "Daimio",
+                           "legend":  "Mordex"
+                       },
+                       {
+                           "name":  "Darth Maul",
+                           "legend":  "Hattori"
+                       },
+                       {
+                           "name":  "Darth Vader",
+                           "legend":  "Ezio"
+                       },
+                       {
+                           "name":  "Daryl",
+                           "legend":  "Ember"
+                       },
+                       {
+                           "name":  "Devil Jin",
+                           "legend":  "Zariel"
+                       },
+                       {
+                           "name":  "Dhalsim",
+                           "legend":  "Rayman"
+                       },
+                       {
+                           "name":  "Diamondhead",
+                           "legend":  "Caspian"
+                       },
+                       {
+                           "name":  "Donatello",
+                           "legend":  "Mirage"
+                       },
+                       {
+                           "name":  "Eivor",
+                           "legend":  "Brynn"
+                       },
+                       {
+                           "name":  "Enchantress",
+                           "legend":  "Fait"
+                       },
+                       {
+                           "name":  "Eren",
+                           "legend":  "Red Raptor"
+                       },
+                       {
+                           "name":  "Finn",
+                           "legend":  "Jhala"
+                       },
+                       {
+                           "name":  "Fiona",
+                           "legend":  "Tezca"
+                       },
+                       {
+                           "name":  "Four Arms",
+                           "legend":  "Kor"
+                       },
+                       {
+                           "name":  "Garnet",
+                           "legend":  "Petra"
+                       },
+                       {
+                           "name":  "General Grievous",
+                           "legend":  "Mako"
+                       },
+                       {
+                           "name":  "Globox",
+                           "legend":  "Cassidy"
+                       },
+                       {
+                           "name":  "Gruagach",
+                           "legend":  "Teros"
+                       },
+                       {
+                           "name":  "Han Solo",
+                           "legend":  "Cross"
+                       },
+                       {
+                           "name":  "Heatblast",
+                           "legend":  "Ada"
+                       },
+                       {
+                           "name":  "Hellboy",
+                           "legend":  "Cross"
+                       },
+                       {
+                           "name":  "Hunter",
+                           "legend":  "Lucien"
+                       },
+                       {
+                           "name":  "Jake",
+                           "legend":  "Kor"
+                       },
+                       {
+                           "name":  "John Cena",
+                           "legend":  "Hattori"
+                       },
+                       {
+                           "name":  "Kay Vess",
+                           "legend":  "Isaiah"
+                       },
+                       {
+                           "name":  "Ken",
+                           "legend":  "Petra"
+                       },
+                       {
+                           "name":  "King Knight",
+                           "legend":  "Sir Roland"
+                       },
+                       {
+                           "name":  "Krieg",
+                           "legend":  "Barraza"
+                       },
+                       {
+                           "name":  "Lara Croft",
+                           "legend":  "Diana"
+                       },
+                       {
+                           "name":  "Leonardo",
+                           "legend":  "Jiro"
+                       },
+                       {
+                           "name":  "Levi",
+                           "legend":  "Asuri"
+                       },
+                       {
+                           "name":  "Lilith",
+                           "legend":  "Reno"
+                       },
+                       {
+                           "name":  "Luke",
+                           "legend":  "Cross"
+                       },
+                       {
+                           "name":  "Luke Skywalker",
+                           "legend":  "Hattori"
+                       },
+                       {
+                           "name":  "M. Bison",
+                           "legend":  "Thor"
+                       },
+                       {
+                           "name":  "Macho Man",
+                           "legend":  "Ulgrim"
+                       },
+                       {
+                           "name":  "Maggie",
+                           "legend":  "Jhala"
+                       },
+                       {
+                           "name":  "Mega Man",
+                           "legend":  "Vivi"
+                       },
+                       {
+                           "name":  "Michelangelo",
+                           "legend":  "Val"
+                       },
+                       {
+                           "name":  "Michonne",
+                           "legend":  "Koji"
+                       },
+                       {
+                           "name":  "Mikasa",
+                           "legend":  "Queen Nai"
+                       },
+                       {
+                           "name":  "Negan",
+                           "legend":  "Jaeyun"
+                       },
+                       {
+                           "name":  "Nimue",
+                           "legend":  "Dusk"
+                       },
+                       {
+                           "name":  "Nina Williams",
+                           "legend":  "Lucien"
+                       },
+                       {
+                           "name":  "Obi-Wan Kenobi",
+                           "legend":  "Val"
+                       },
+                       {
+                           "name":  "Patrick Star",
+                           "legend":  "Teros"
+                       },
+                       {
+                           "name":  "Pearl",
+                           "legend":  "Kaya"
+                       },
+                       {
+                           "name":  "Plague Knight",
+                           "legend":  "Caspian"
+                       },
+                       {
+                           "name":  "Po",
+                           "legend":  "Wu Shang"
+                       },
+                       {
+                           "name":  "Princess Bubblegum",
+                           "legend":  "Lord Vraxx"
+                       },
+                       {
+                           "name":  "Puss in Boots",
+                           "legend":  "Asuri"
+                       },
+                       {
+                           "name":  "Ranno",
+                           "legend":  "Wu Shang"
+                       },
+                       {
+                           "name":  "Raphael",
+                           "legend":  "Ragnir"
+                       },
+                       {
+                           "name":  "Rick",
+                           "legend":  "Barraza"
+                       },
+                       {
+                           "name":  "Roman Reigns",
+                           "legend":  "Teros"
+                       },
+                       {
+                           "name":  "Ryu",
+                           "legend":  "Petra"
+                       },
+                       {
+                           "name":  "Sakura",
+                           "legend":  "Lin Fei"
+                       },
+                       {
+                           "name":  "Sandy Cheeks",
+                           "legend":  "Cassidy"
+                       },
+                       {
+                           "name":  "Shovel Knight",
+                           "legend":  "Gnash"
+                       },
+                       {
+                           "name":  "Shrek",
+                           "legend":  "Xull"
+                       },
+                       {
+                           "name":  "Simon Belmont",
+                           "legend":  "Jhala"
+                       },
+                       {
+                           "name":  "Snake Eyes",
+                           "legend":  "Thatch"
+                       },
+                       {
+                           "name":  "Specter Knight",
+                           "legend":  "Nix"
+                       },
+                       {
+                           "name":  "SpongeBob SquarePants",
+                           "legend":  "Rayman"
+                       },
+                       {
+                           "name":  "Stevonnie",
+                           "legend":  "Val"
+                       },
+                       {
+                           "name":  "Storm Shadow",
+                           "legend":  "Koji"
+                       },
+                       {
+                           "name":  "Super Metal Rayman",
+                           "legend":  "Rayman"
+                       },
+                       {
+                           "name":  "Survivor Lara Croft",
+                           "legend":  "Diana"
+                       },
+                       {
+                           "name":  "Tai Lung",
+                           "legend":  "Mordex"
+                       },
+                       {
+                           "name":  "The Arbiter",
+                           "legend":  "Sidra"
+                       },
+                       {
+                           "name":  "The Mandalorian",
+                           "legend":  "Ada"
+                       },
+                       {
+                           "name":  "The Master Chief",
+                           "legend":  "Isaiah"
+                       },
+                       {
+                           "name":  "The Rock",
+                           "legend":  "Sentinel"
+                       },
+                       {
+                           "name":  "The Undertaker",
+                           "legend":  "Thor"
+                       },
+                       {
+                           "name":  "Tigress",
+                           "legend":  "Asuri"
+                       },
+                       {
+                           "name":  "Tiny Tina",
+                           "legend":  "Scarlet"
+                       },
+                       {
+                           "name":  "Titan",
+                           "legend":  "Onyx"
+                       },
+                       {
+                           "name":  "Toph",
+                           "legend":  "Kor"
+                       },
+                       {
+                           "name":  "Warlock",
+                           "legend":  "Lord Vraxx"
+                       },
+                       {
+                           "name":  "Xavier Woods",
+                           "legend":  "Bödvar"
+                       },
+                       {
+                           "name":  "Yoshimitsu",
+                           "legend":  "Jiro"
+                       },
+                       {
+                           "name":  "Zuko",
+                           "legend":  "Hattori"
+                       }
+                   ]
+}

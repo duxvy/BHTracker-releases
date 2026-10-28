@@ -1,0 +1,500 @@
+{
+    "source":  "https://api.brawlhalla.com/v1/static/legends",
+    "fetched":  "2026-10-12",
+    "apiEntries":  71,
+    "count":  70,
+    "legends":  [
+                    "Ada",
+                    "Arcadia",
+                    "Artemis",
+                    "Asuri",
+                    "Aurus",
+                    "Azoth",
+                    "Barraza",
+                    "Bödvar",
+                    "Brynn",
+                    "Caspian",
+                    "Cassidy",
+                    "Cross",
+                    "Diana",
+                    "Dusk",
+                    "Ember",
+                    "Ezio",
+                    "Fait",
+                    "Gnash",
+                    "Hattori",
+                    "Imugi",
+                    "Isaiah",
+                    "Jaeyun",
+                    "Jhala",
+                    "Jiro",
+                    "Kaya",
+                    "King Zuva",
+                    "Koji",
+                    "Kor",
+                    "Lady Vera",
+                    "Lin Fei",
+                    "Loki",
+                    "Lord Vraxx",
+                    "Lucien",
+                    "Magyar",
+                    "Mako",
+                    "Mirage",
+                    "Mordex",
+                    "Munin",
+                    "Nix",
+                    "Onyx",
+                    "Orion",
+                    "Petra",
+                    "Priya",
+                    "Qinghua \u0026 Baobao",
+                    "Queen Nai",
+                    "Ragnir",
+                    "Ransom",
+                    "Rayman",
+                    "Red Raptor",
+                    "Reno",
+                    "Rupture",
+                    "Scarlet",
+                    "Sentinel",
+                    "Seven",
+                    "Sidra",
+                    "Sir Roland",
+                    "Teros",
+                    "Tezca",
+                    "Thatch",
+                    "Thea",
+                    "Thor",
+                    "Ulgrim",
+                    "Val",
+                    "Vector",
+                    "Vivi",
+                    "Volkov",
+                    "Wu Shang",
+                    "Xull",
+                    "Yumiko",
+                    "Zariel"
+                ],
+    "details":  [
+                    {
+                        "id":  3,
+                        "name":  "Bödvar",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  4,
+                        "name":  "Cassidy",
+                        "weaponOne":  "Pistol",
+                        "weaponTwo":  "Hammer"
+                    },
+                    {
+                        "id":  5,
+                        "name":  "Orion",
+                        "weaponOne":  "RocketLance",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  6,
+                        "name":  "Lord Vraxx",
+                        "weaponOne":  "RocketLance",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  7,
+                        "name":  "Gnash",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  8,
+                        "name":  "Queen Nai",
+                        "weaponOne":  "Spear",
+                        "weaponTwo":  "Katar"
+                    },
+                    {
+                        "id":  9,
+                        "name":  "Lucien",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  10,
+                        "name":  "Hattori",
+                        "weaponOne":  "Sword",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  11,
+                        "name":  "Sir Roland",
+                        "weaponOne":  "RocketLance",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  12,
+                        "name":  "Scarlet",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "RocketLance"
+                    },
+                    {
+                        "id":  13,
+                        "name":  "Thatch",
+                        "weaponOne":  "Sword",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  14,
+                        "name":  "Ada",
+                        "weaponOne":  "Pistol",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  15,
+                        "name":  "Sentinel",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "Katar"
+                    },
+                    {
+                        "id":  16,
+                        "name":  "Teros",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "Hammer"
+                    },
+                    {
+                        "id":  17,
+                        "name":  "Red Raptor",
+                        "weaponOne":  "Boots",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  18,
+                        "name":  "Ember",
+                        "weaponOne":  "Bow",
+                        "weaponTwo":  "Katar"
+                    },
+                    {
+                        "id":  19,
+                        "name":  "Brynn",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  20,
+                        "name":  "Asuri",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  21,
+                        "name":  "Barraza",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  22,
+                        "name":  "Ulgrim",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "RocketLance"
+                    },
+                    {
+                        "id":  23,
+                        "name":  "Azoth",
+                        "weaponOne":  "Bow",
+                        "weaponTwo":  "Axe"
+                    },
+                    {
+                        "id":  24,
+                        "name":  "Koji",
+                        "weaponOne":  "Bow",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  25,
+                        "name":  "Diana",
+                        "weaponOne":  "Bow",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  26,
+                        "name":  "Jhala",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  27,
+                        "name":  "Loki",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "Scythe"
+                    },
+                    {
+                        "id":  28,
+                        "name":  "Kor",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Hammer"
+                    },
+                    {
+                        "id":  29,
+                        "name":  "Wu Shang",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  30,
+                        "name":  "Val",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  31,
+                        "name":  "Ragnir",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "Axe"
+                    },
+                    {
+                        "id":  32,
+                        "name":  "Cross",
+                        "weaponOne":  "Pistol",
+                        "weaponTwo":  "Fists"
+                    },
+                    {
+                        "id":  33,
+                        "name":  "Mirage",
+                        "weaponOne":  "Scythe",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  34,
+                        "name":  "Nix",
+                        "weaponOne":  "Scythe",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  35,
+                        "name":  "Mordex",
+                        "weaponOne":  "Scythe",
+                        "weaponTwo":  "Fists"
+                    },
+                    {
+                        "id":  36,
+                        "name":  "Yumiko",
+                        "weaponOne":  "Bow",
+                        "weaponTwo":  "Hammer"
+                    },
+                    {
+                        "id":  37,
+                        "name":  "Artemis",
+                        "weaponOne":  "RocketLance",
+                        "weaponTwo":  "Scythe"
+                    },
+                    {
+                        "id":  38,
+                        "name":  "Caspian",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Katar"
+                    },
+                    {
+                        "id":  39,
+                        "name":  "Sidra",
+                        "weaponOne":  "Cannon",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  40,
+                        "name":  "Xull",
+                        "weaponOne":  "Cannon",
+                        "weaponTwo":  "Axe"
+                    },
+                    {
+                        "id":  41,
+                        "name":  "Isaiah",
+                        "weaponOne":  "Cannon",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  42,
+                        "name":  "Kaya",
+                        "weaponOne":  "Spear",
+                        "weaponTwo":  "Bow"
+                    },
+                    {
+                        "id":  43,
+                        "name":  "Jiro",
+                        "weaponOne":  "Sword",
+                        "weaponTwo":  "Scythe"
+                    },
+                    {
+                        "id":  44,
+                        "name":  "Lin Fei",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "Cannon"
+                    },
+                    {
+                        "id":  45,
+                        "name":  "Zariel",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Bow"
+                    },
+                    {
+                        "id":  46,
+                        "name":  "Rayman",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Axe"
+                    },
+                    {
+                        "id":  47,
+                        "name":  "Dusk",
+                        "weaponOne":  "Spear",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  48,
+                        "name":  "Fait",
+                        "weaponOne":  "Scythe",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  49,
+                        "name":  "Thor",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  50,
+                        "name":  "Petra",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  51,
+                        "name":  "Vector",
+                        "weaponOne":  "RocketLance",
+                        "weaponTwo":  "Bow"
+                    },
+                    {
+                        "id":  52,
+                        "name":  "Volkov",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "Scythe"
+                    },
+                    {
+                        "id":  53,
+                        "name":  "Onyx",
+                        "weaponOne":  "Fists",
+                        "weaponTwo":  "Cannon"
+                    },
+                    {
+                        "id":  54,
+                        "name":  "Jaeyun",
+                        "weaponOne":  "Sword",
+                        "weaponTwo":  "Greatsword"
+                    },
+                    {
+                        "id":  55,
+                        "name":  "Mako",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "Greatsword"
+                    },
+                    {
+                        "id":  56,
+                        "name":  "Magyar",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "Greatsword"
+                    },
+                    {
+                        "id":  57,
+                        "name":  "Reno",
+                        "weaponOne":  "Pistol",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  58,
+                        "name":  "Munin",
+                        "weaponOne":  "Bow",
+                        "weaponTwo":  "Scythe"
+                    },
+                    {
+                        "id":  59,
+                        "name":  "Arcadia",
+                        "weaponOne":  "Spear",
+                        "weaponTwo":  "Greatsword"
+                    },
+                    {
+                        "id":  60,
+                        "name":  "Ezio",
+                        "weaponOne":  "Sword",
+                        "weaponTwo":  "Orb"
+                    },
+                    {
+                        "id":  61,
+                        "name":  "Seven",
+                        "weaponOne":  "Spear",
+                        "weaponTwo":  "Cannon"
+                    },
+                    {
+                        "id":  62,
+                        "name":  "Thea",
+                        "weaponOne":  "Boots",
+                        "weaponTwo":  "RocketLance"
+                    },
+                    {
+                        "id":  63,
+                        "name":  "Tezca",
+                        "weaponOne":  "Boots",
+                        "weaponTwo":  "Fists"
+                    },
+                    {
+                        "id":  64,
+                        "name":  "Vivi",
+                        "weaponOne":  "Boots",
+                        "weaponTwo":  "Pistol"
+                    },
+                    {
+                        "id":  65,
+                        "name":  "Imugi",
+                        "weaponOne":  "Axe",
+                        "weaponTwo":  "Greatsword"
+                    },
+                    {
+                        "id":  66,
+                        "name":  "King Zuva",
+                        "weaponOne":  "Hammer",
+                        "weaponTwo":  "Boots"
+                    },
+                    {
+                        "id":  67,
+                        "name":  "Priya",
+                        "weaponOne":  "Chakram",
+                        "weaponTwo":  "Sword"
+                    },
+                    {
+                        "id":  68,
+                        "name":  "Ransom",
+                        "weaponOne":  "Chakram",
+                        "weaponTwo":  "Bow"
+                    },
+                    {
+                        "id":  69,
+                        "name":  "Lady Vera",
+                        "weaponOne":  "Chakram",
+                        "weaponTwo":  "Scythe"
+                    },
+                    {
+                        "id":  70,
+                        "name":  "Rupture",
+                        "weaponOne":  "Katar",
+                        "weaponTwo":  "RocketLance"
+                    },
+                    {
+                        "id":  71,
+                        "name":  "Aurus",
+                        "weaponOne":  "Chakram",
+                        "weaponTwo":  "Spear"
+                    },
+                    {
+                        "id":  72,
+                        "name":  "Qinghua \u0026 Baobao",
+                        "weaponOne":  "Orb",
+                        "weaponTwo":  "Cannon"
+                    }
+                ]
+}

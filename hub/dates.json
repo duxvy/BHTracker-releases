@@ -1,0 +1,4 @@
+{
+  "note": "Dates BHTracker's Hub counts down to. Only the owner adds them, after checking (the /hub-dates skill); the collector never writes here. kind: season, battle-pass, event, esports or other. start and end: a date (2026-10-07) or a time with its offset (2026-10-07T17:00:00Z); at least one of them.",
+  "dates": []
+}

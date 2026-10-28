@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- The Hub's collector (hub/README.md): gathers Brawlhalla's official news, patch notes, esports and the approved dates
+       into one small hub.json that BHTracker downloads. Runs on GitHub Actions in the public releases repo, so it stands
+       alone: no reference to the app's projects, nothing but .NET. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BHTracker.Hub</RootNamespace>
+    <AssemblyName>BHTracker.HubCollector</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!-- The bundled names: the app's own lists in this repo; hub-export.ps1 copies them into data\ for the releases repo. -->
+  <PropertyGroup>
+    <CoreData>$(MSBuildThisFileDirectory)..\..\src\BrawlScout.Core\Data\</CoreData>
+  </PropertyGroup>
+  <ItemGroup Condition="Exists('$(CoreData)legends.json')">
+    <EmbeddedResource Include="$(CoreData)legends.json" LogicalName="legends.json" />
+    <EmbeddedResource Include="$(CoreData)crossovers.json" LogicalName="crossovers.json" />
+  </ItemGroup>
+  <ItemGroup Condition="!Exists('$(CoreData)legends.json')">
+    <EmbeddedResource Include="data\legends.json" LogicalName="legends.json" />
+    <EmbeddedResource Include="data\crossovers.json" LogicalName="crossovers.json" />
+  </ItemGroup>
+
+</Project>

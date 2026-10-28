@@ -1,0 +1,59 @@
+# BHTracker's Hub (hub/README.md): every 4 hours, and on demand, gathers Brawlhalla's official news, patch notes, esports
+# and the approved dates into hub.json on the hub-data branch, which BHTracker downloads. It commits only when hub.json or
+# the date suggestions change. No secrets: only this job's own token, for this repo.
+name: Hub
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'   # every 4 hours
+    - cron: '41 6 1 * *'     # the 1st of each month: also keeps the schedule alive (keepalive, below)
+  workflow_dispatch:
+
+permissions:
+  contents: write   # push to hub-data
+  actions: write    # keep this workflow switched on
+
+concurrency:
+  group: hub
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out the last hub.json
+        uses: actions/checkout@v4
+        with:
+          ref: hub-data
+          path: out
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      # Liquipedia's answers, kept between runs (the collector asks again after 12 hours)
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: hub-cache-${{ github.run_id }}
+          restore-keys: hub-cache-
+      - name: Collect
+        run: dotnet run -c Release --project hub/collector -- --out out --dates hub/dates.json --cache .cache
+      - name: Commit if anything changed
+        working-directory: out
+        run: |
+          git add hub.json date-suggestions.json
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Hub: update"
+          git push origin HEAD:hub-data
+
+  keepalive:
+    # GitHub switches off a public repo's timed workflows after 60 days without activity, and the hub's commits go to
+    # hub-data, which may not count. Enabling this workflow again once a month keeps its schedule on.
+    if: github.event.schedule == '41 6 1 * *'
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/hub.yml/enable"
+        env:
+          GH_TOKEN: ${{ github.token }}
