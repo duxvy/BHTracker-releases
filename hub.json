@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T10:44:48.8804607+00:00",
+  "updated": "2026-10-29T15:35:27.092585+00:00",
   "news": [
     {
       "id": "1846651706681642",
@@ -989,5 +989,26 @@
         "sha": "8c6af5cfb5104d78"
       }
     ]
-  }
+  },
+  "estimates": [
+    {
+      "name": "Battle Pass Season 14",
+      "kind": "battle-pass",
+      "start": "2026-09-16",
+      "end": "2026-12-16",
+      "seasons": 6,
+      "shortest": 91,
+      "longest": 105
+    },
+    {
+      "name": "Ranked Season 42",
+      "kind": "season",
+      "start": "2026-09-23",
+      "end": "2026-12-23",
+      "seasons": 6,
+      "shortest": 84,
+      "longest": 98
+    }
+  ],
+  "resets": []
 }
