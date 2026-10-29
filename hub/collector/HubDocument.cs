@@ -11,6 +11,10 @@ namespace BHTracker.Hub;
 /// <param name="Updated">When the content last changed: a run that finds nothing new leaves the file as it is.</param>
 /// <param name="History">Where the older posts and patches are (one file a year, history/2026.json...), downloaded
 /// only when the app's full News list or patch history opens. Added after 2.7.0.</param>
+/// <param name="Estimates">The Battle Pass's and ranked season's estimated ends, while no post gives the real one.
+/// Added after 2.9.0, apart from Countdowns: older apps would show them as exact days.</param>
+/// <param name="Resets">What resets on a clock (daily missions...), as rules the app rolls forward itself. Added after
+/// 2.9.0, apart from Countdowns: older apps would show a passed reset's time until the next hub.json.</param>
 public sealed record HubDocument(
     int Version,
     DateTimeOffset Updated,
@@ -18,7 +22,9 @@ public sealed record HubDocument(
     IReadOnlyList<HubPatch> Patches,
     HubEsports Esports,
     IReadOnlyList<HubDate> Countdowns,
-    HistoryIndex? History = null)
+    HistoryIndex? History = null,
+    IReadOnlyList<HubEstimate>? Estimates = null,
+    IReadOnlyList<HubReset>? Resets = null)
 {
     public const int CurrentVersion = 1;
 
@@ -77,3 +83,13 @@ public sealed record HubEsports(IReadOnlyList<EsportsEvent> Upcoming, IReadOnlyL
 /// ("2026-10-07") or times with their offset ("2026-10-07T17:00:00Z"), as written in dates.json. Source, added after
 /// 2.9.0: "dates" (the owner's dates.json) or "steam" (added by itself from an official post, in days: <see cref="AutoDates"/>).</summary>
 public sealed record HubDate(string Name, string Kind, string? Start, string? End, string? Url, string? Source = null);
+
+/// <summary>The Battle Pass or ranked season on now and its estimated end (<see cref="Estimates"/>): its start, the typical
+/// length of the last <paramref name="Seasons"/> added to it, and the shortest and longest of those, in days. The app shows
+/// it in weeks ("ends in about 7 weeks"), never as a day.</summary>
+public sealed record HubEstimate(string Name, string Kind, string Start, string End, int Seasons, int Shortest, int Longest);
+
+/// <summary>Something that resets on a clock, from dates.json (the owner checks each time in the game): "day" or a weekday
+/// ("wednesday"), a time ("05:00") and the time zone it keeps ("America/New_York", or "UTC"). The app works out the next
+/// one in the player's own time.</summary>
+public sealed record HubReset(string Name, string Every, string At, string Zone);

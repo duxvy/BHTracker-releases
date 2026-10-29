@@ -1,7 +1,7 @@
 # BHTracker's Hub (hub/README.md): every 4 hours, and on demand, gathers Brawlhalla's official news, patch notes, esports
 # and the approved dates into hub.json on the hub-data branch, which BHTracker downloads, and keeps its history there
-# (history/<year>.json). It commits only when one of those files - hub.json, the date suggestions, a history year -
-# changes. No secrets: only this job's own token, for this repo.
+# (history/<year>.json). It commits only when one of those files - hub.json, the date suggestions, the season starts it
+# has learned (season-starts.json), a history year - changes. No secrets: only this job's own token, for this repo.
 name: Hub
 
 on:
@@ -39,7 +39,7 @@ jobs:
           key: hub-cache-${{ github.run_id }}
           restore-keys: hub-cache-
       - name: Collect
-        run: dotnet run -c Release --project hub/collector -- --out out --dates hub/dates.json --cache .cache
+        run: dotnet run -c Release --project hub/collector -- --out out --dates hub/dates.json --seasons hub/seasons.json --cache .cache
       - name: Commit if anything changed
         working-directory: out
         run: |

@@ -6,7 +6,11 @@ namespace BHTracker.Hub;
 /// <param name="Posts">Official Steam posts, newest first.</param>
 /// <param name="LiquipediaPages">Liquipedia's tournament lists (the API's HTML), this year's first.</param>
 /// <param name="History">The history files' index as this run left them (null: as they were).</param>
-/// <param name="Removed">The automatic countdowns the owner took out (dates.json's "removed").</param>
+/// <param name="Removed">The automatic countdowns and estimates the owner took out (dates.json's "removed").</param>
+/// <param name="Seasons">When each Battle Pass and ranked season started, by the owner's word (hub/seasons.json).</param>
+/// <param name="KeptStarts">The starts earlier runs knew (season-starts.json on hub-data).</param>
+/// <param name="Resets">What resets on a clock (dates.json's "resets").</param>
+/// <param name="SeasonsRemoved">Names the owner says are no start at all (seasons.json's "removed").</param>
 public sealed record HubInputs(
     IReadOnlyList<Post>? Posts,
     IReadOnlyList<string>? LiquipediaPages,
@@ -14,7 +18,11 @@ public sealed record HubInputs(
     HubDocument? Previous,
     DateTimeOffset Now,
     HistoryIndex? History = null,
-    IReadOnlyList<DateRemoval>? Removed = null);
+    IReadOnlyList<DateRemoval>? Removed = null,
+    IReadOnlyList<SeasonStart>? Seasons = null,
+    IReadOnlyList<SeasonStart>? KeptStarts = null,
+    IReadOnlyList<HubReset>? Resets = null,
+    IReadOnlyList<string>? SeasonsRemoved = null);
 
 /// <summary>Builds hub.json and the date suggestions from a run's inputs, and writes each file only when its content
 /// changed (so the workflow commits only then).</summary>
@@ -57,8 +65,31 @@ public static class Collector
             .OrderBy(d => DatesFile.When(d.Start ?? d.End!)).ToList();
 
         return new HubDocument(HubDocument.CurrentVersion, previous?.Updated ?? inputs.Now, news, patches,
-            new HubEsports(upcoming, results), countdowns, inputs.History ?? previous?.History);
+            new HubEsports(upcoming, results), countdowns, inputs.History ?? previous?.History, Estimate(inputs, countdowns), inputs.Resets ?? []);
     }
+
+    /// <summary>The estimated ends (<see cref="Estimates"/>), less any the owner took out or set themselves; with
+    /// <paramref name="notes"/>, why a line has none when a start needs adding.</summary>
+    public static IReadOnlyList<HubEstimate> Estimate(HubInputs inputs, IReadOnlyList<HubDate> countdowns, List<string>? notes = null)
+    {
+        var certain = inputs.Posts is { } posts ? AutoDates.Find(posts.Take(PostsLooked), DateOnly.MinValue) : [];
+        var named = inputs.Posts is { } recent ? Estimates.Named(recent.Take(PostsLooked)) : [];
+        return Estimates.Find(Starts(inputs), inputs.Dates.Concat(certain).Concat(countdowns), named,
+                DateOnly.FromDateTime(inputs.Now.UtcDateTime), notes)
+            .Where(e => !Owners(inputs, e.Name, [Day(e.Start).Year, Day(e.End).Year])).ToList();
+    }
+
+    /// <summary>Every Battle Pass and ranked season start known (<see cref="Estimates.Known"/>): what season-starts.json on
+    /// hub-data keeps from run to run.</summary>
+    public static IReadOnlyList<SeasonStart> Starts(HubInputs inputs)
+    {
+        var posts = inputs.Posts?.Take(PostsLooked).ToList() ?? [];
+        return Estimates.Known(inputs.Seasons ?? [], inputs.Dates, AutoDates.Find(posts, DateOnly.MinValue),
+            Estimates.FromHeadlines(posts), inputs.KeptStarts ?? [], inputs.SeasonsRemoved);
+    }
+
+    /// <summary>What season-starts.json on hub-data keeps from run to run: the starts learned, not the owner's.</summary>
+    public static IReadOnlyList<SeasonStart> Learned(HubInputs inputs) => Estimates.Learned(Starts(inputs), inputs.Seasons ?? []);
 
     static DateOnly Day(string when) => DateOnly.FromDateTime(DatesFile.When(when)!.Value.UtcDateTime);
 

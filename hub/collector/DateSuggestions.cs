@@ -63,6 +63,12 @@ public static partial class DateSuggestions
             .Concat(EventNames.Where(e => e.Named.IsMatch(text)).Select(e => (e.Name, "event")))
             .DistinctBy(t => AutoDates.Key(t.Item1)).ToList();
 
+    /// <summary>The Battle Passes and ranked seasons a text names, each once, with their kinds.</summary>
+    internal static IEnumerable<(string Name, string Kind)> Seasons(string text) =>
+        BattlePass().Matches(text).Select(m => (PassName(m), "battle-pass"))
+            .Concat(RankedSeason().Matches(text).Select(m => ($"Ranked Season {m.Groups[1].Value}", "season")))
+            .Distinct();
+
     /// <summary>A post's sentences, with its headings, bullets and lines kept apart (plain text runs them together).</summary>
     internal static IEnumerable<string> Sentences(string bbcode) =>
         Bbcode.Plain(Block().Replace(bbcode, "\u0001")).Split('\u0001')   // one pass: a mark where each block ends

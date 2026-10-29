@@ -9,7 +9,8 @@ using BHTracker.Hub;
 // changed (History.Version); otherwise the newest posts go into it.
 //
 //   --out <dir>                  where the files go (the previous ones there are kept for a source that fails)
-//   --dates <file>               dates.json (approved dates)
+//   --dates <file>               dates.json (approved dates, and what resets on a clock)
+//   --seasons <file>             seasons.json (when each Battle Pass and ranked season started: the estimates)
 //   --cache <dir>                Liquipedia's answers between runs
 //   --steam-file <file>          Steam's newest posts from a file instead of the API (tests, offline)
 //   --steam-history-file <file>  every post, from a file (.json or .json.gz) instead of paging the API back
@@ -29,14 +30,23 @@ var previous = File.Exists(hubPath) ? HubDocument.FromJson(File.ReadAllText(hubP
 
 IReadOnlyList<HubDate> dates = [];
 IReadOnlyList<DateRemoval> removed = [];
+IReadOnlyList<HubReset> resets = [];
 if (options.TryGetValue("dates", out var datesPath))
 {
     var datesJson = File.ReadAllText(datesPath);
     var (read, problems) = DatesFile.Read(datesJson);
     var (taken, removedProblems) = DatesFile.ReadRemoved(datesJson);
-    foreach (var p in problems.Concat(removedProblems)) Console.WriteLine($"::warning::dates.json: {p} (left out)");
-    (dates, removed) = (read, taken);
+    var (clock, resetProblems) = DatesFile.ReadResets(datesJson);
+    foreach (var p in problems.Concat(removedProblems).Concat(resetProblems)) Console.WriteLine($"::warning::dates.json: {p} (left out)");
+    (dates, removed, resets) = (read, taken, clock);
 }
+// seasons.json: given, or beside dates.json (hub/)
+var besideDates = datesPath is null ? null : Path.Combine(Path.GetDirectoryName(Path.GetFullPath(datesPath))!, "seasons.json");
+var seasonsPath = options.GetValueOrDefault("seasons") ?? (File.Exists(besideDates) ? besideDates : null);
+var seasons = Seasons(seasonsPath, "seasons.json");
+var seasonsRemoved = seasonsPath is null ? [] : Estimates.ReadRemoved(File.ReadAllText(seasonsPath));
+var keptStartsPath = Path.Combine(outDir, Estimates.KeptFile);
+var keptStarts = Seasons(File.Exists(keptStartsPath) ? keptStartsPath : null, Estimates.KeptFile);
 
 using var cts = new CancellationTokenSource(TimeSpan.FromMinutes(10));
 IReadOnlyList<Post>? posts = null;
@@ -74,15 +84,29 @@ if (!options.ContainsKey("no-history"))
     }
 }
 
-var inputs = new HubInputs(posts, pages, dates, previous, now, history, removed);
+var inputs = new HubInputs(posts, pages, dates, previous, now, history, removed, seasons, keptStarts, resets, seasonsRemoved);
 var hub = Collector.Build(inputs, Names.Bundled);
 bool wroteHub = Collector.WriteHub(hubPath, hub, now);
 bool wroteSuggestions = Collector.WriteSuggestions(Path.Combine(outDir, "date-suggestions.json"), Collector.Suggest(inputs));
+bool wroteStarts = Estimates.WriteKept(keptStartsPath, Collector.Learned(inputs));
 Console.WriteLine($"hub.json {(wroteHub ? "updated" : "unchanged")}: {hub.News.Count} news, {hub.Patches.Count} patches, " +
     $"{hub.Esports.Upcoming.Count} upcoming, {hub.Esports.Results.Count} results, {hub.Countdowns.Count} countdowns " +
-    $"({hub.Countdowns.Count(c => c.Source == AutoDates.Source)} from posts)");
-Console.WriteLine($"date-suggestions.json {(wroteSuggestions ? "updated" : "unchanged")}");
+    $"({hub.Countdowns.Count(c => c.Source == AutoDates.Source)} from posts), {hub.Estimates!.Count} estimated, {hub.Resets!.Count} resets");
+foreach (var e in hub.Estimates) Console.WriteLine($"Estimated: {e.Name} ends around {e.End} (from {e.Start}; the last {e.Seasons}: {e.Shortest}-{e.Longest} days)");
+var notes = new List<string>();
+Collector.Estimate(inputs, hub.Countdowns, notes);
+foreach (var note in notes) Console.WriteLine($"::warning::Estimates: {note}");
+Console.WriteLine($"date-suggestions.json {(wroteSuggestions ? "updated" : "unchanged")}, {Estimates.KeptFile} {(wroteStarts ? "updated" : "unchanged")}");
 return 0;
+
+// hub/seasons.json or the kept starts; a malformed entry is a warning, never a stopped run
+static IReadOnlyList<SeasonStart> Seasons(string? path, string label)
+{
+    if (path is null) return [];
+    var (starts, problems) = Estimates.Read(File.ReadAllText(path));
+    foreach (var p in problems) Console.WriteLine($"::warning::{label}: {p} (left out)");
+    return starts;
+}
 
 // the history: read as the last run left it and the newest posts put in; made again from every post when there's none
 // yet, or its rules changed
@@ -177,10 +201,12 @@ static int CheckDates(string path)
     var json = File.ReadAllText(path);
     var (dates, problems) = DatesFile.Read(json);
     var (removed, removedProblems) = DatesFile.ReadRemoved(json);
+    var (resets, resetProblems) = DatesFile.ReadResets(json);
     foreach (var d in dates) Console.WriteLine($"ok   {d.Kind,-11} {d.Name}: {d.Start ?? "-"} to {d.End ?? "-"}{(d.Url is null ? "" : $" ({d.Url})")}");
     foreach (var r in removed) Console.WriteLine($"ok   removed     {r.Name} ({r.Year}): never shown by itself");
-    foreach (var p in problems.Concat(removedProblems)) Console.WriteLine($"BAD  {p}");
-    return problems.Count + removedProblems.Count == 0 ? 0 : 1;
+    foreach (var r in resets) Console.WriteLine($"ok   reset       {r.Name}: every {r.Every} at {r.At} ({r.Zone})");
+    foreach (var p in problems.Concat(removedProblems).Concat(resetProblems)) Console.WriteLine($"BAD  {p}");
+    return problems.Count + removedProblems.Count + resetProblems.Count == 0 ? 0 : 1;
 }
 
 static Dictionary<string, string> Options(string[] args)

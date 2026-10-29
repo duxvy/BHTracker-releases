@@ -28,6 +28,16 @@ app update.
   and never guesses an hour, and it links to the post. Anything less certain is only *suggested* (`date-suggestions.json`
   on `hub-data`) for the owner to check. The owner's `dates.json` always wins: their own entries replace the automatic
   ones, and its `removed` list takes one out.
+- **Estimated ends:** while no post says when the current Battle Pass or ranked season ends, the collector estimates it:
+  its start plus the typical (median) length of the last 6 of its kind, each lasting until the next one started. The
+  starts are in `seasons.json` (the owner's list, from the official posts) and, as newer posts give them (a dated
+  sentence, or the first headline naming the new one), `season-starts.json` on `hub-data`. No estimate when the last 6
+  are more than 3 weeks apart in length, once the next one's start or its end is known or a post names the next one, and
+  only while the current one is shorter than the shortest of the 6 (after that it may already be over). BHTracker shows
+  it in weeks ("ends in about 7 weeks"), marked "estimated". `dates.json`'s entries and `removed` list replace or take
+  one out. When a start is missing, the run's log says so (`Estimates:` warnings): add it to `seasons.json`.
+- **Resets:** `dates.json`'s `resets` (each checked by the owner in the game): a name, every day or a weekday, a time and
+  the time zone it keeps. BHTracker works out the next one in the player's own time.
 
 ## Summaries, not copies
 `hub.json` holds only BHTracker's own summaries, facts and links. It never holds a sentence from anyone's post.
@@ -39,6 +49,6 @@ app update.
 
 ## Running it locally
 ```
-dotnet run --project hub/collector -- --out out --dates hub/dates.json --cache .cache
+dotnet run --project hub/collector -- --out out --dates hub/dates.json --seasons hub/seasons.json --cache .cache
 dotnet run --project hub/collector -- --check-dates hub/dates.json
 ```

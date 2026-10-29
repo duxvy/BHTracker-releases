@@ -5,7 +5,8 @@ namespace BHTracker.Hub;
 
 /// <summary>dates.json: the dates the owner approved for the Hub's countdowns (the /hub-dates skill adds them; the
 /// collector never writes it). Each: a name, a kind, a start and/or an end, and optionally a link. Its "removed" list
-/// names the automatic countdowns (<see cref="AutoDates"/>) the owner took out, each with its year.</summary>
+/// names the automatic countdowns (<see cref="AutoDates"/>) and estimates (<see cref="Estimates"/>) the owner took out,
+/// each with its year; its "resets" what resets on a clock.</summary>
 public static class DatesFile
 {
     public static readonly string[] Kinds = ["season", "battle-pass", "event", "esports", "other"];
@@ -31,6 +32,43 @@ public static class DatesFile
         }
         return (removed, problems);
     }
+
+    /// <summary>"day" or a weekday: how often a reset comes.</summary>
+    public static readonly string[] Everies = ["day", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+
+    /// <summary>What resets on a clock ("resets": a name, every, at, zone), each checked by the owner in the game, and, for
+    /// each one left out, why. The zone is "UTC" or a region's IANA name ("America/New_York"): the app finds it.</summary>
+    public static (IReadOnlyList<HubReset> Resets, IReadOnlyList<string> Problems) ReadResets(string json)
+    {
+        var resets = new List<HubReset>();
+        var problems = new List<string>();
+        using var doc = JsonDocument.Parse(json, new JsonDocumentOptions { CommentHandling = JsonCommentHandling.Skip, AllowTrailingCommas = true });
+        if (doc.RootElement.ValueKind != JsonValueKind.Object || !doc.RootElement.TryGetProperty("resets", out var list)) return (resets, problems);
+        if (list.ValueKind != JsonValueKind.Array) return (resets, ["resets: a list of { \"name\", \"every\", \"at\", \"zone\" } is needed"]);
+        foreach (var e in list.EnumerateArray())
+        {
+            string Text(string key) => e.ValueKind == JsonValueKind.Object && e.TryGetProperty(key, out var v) && v.ValueKind == JsonValueKind.String ? v.GetString()!.Trim() : "";
+            var reset = new HubReset(Text("name"), Text("every").ToLowerInvariant(), Text("at"), Text("zone"));
+            if (ResetProblem(reset) is { } problem) problems.Add($"reset {(reset.Name.Length > 0 ? reset.Name : "(no name)")}: {problem}");
+            else resets.Add(reset);
+        }
+        return (resets, problems);
+    }
+
+    static string? ResetProblem(HubReset r)
+    {
+        if (r.Name.Length is 0 or > 60) return "a name of 1 to 60 letters is needed";
+        if (!Everies.Contains(r.Every)) return "every must be day or a weekday (wednesday)";
+        if (!TimeOnly.TryParseExact(r.At, "HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out _)) return $"at \"{r.At}\" isn't a time (05:00)";
+        if (!KnownZone(r.Zone)) return $"zone \"{r.Zone}\" isn't UTC or a region's name this check knows (America/New_York)";
+        return null;
+    }
+
+    // the zone found by name (Linux, where the workflow runs, knows every region); on Windows the collector's invariant
+    // globalization can't look region names up, so the usual ones are listed
+    static readonly string[] Zones = ["UTC", "America/New_York", "America/Chicago", "America/Denver", "America/Los_Angeles", "Europe/London", "Europe/Paris", "Europe/Berlin"];
+
+    static bool KnownZone(string zone) => Zones.Contains(zone) || TimeZoneInfo.TryFindSystemTimeZoneById(zone, out _) && zone.Contains('/');
 
     /// <summary>The file's entries and, for each one left out, why.</summary>
     public static (IReadOnlyList<HubDate> Dates, IReadOnlyList<string> Problems) Read(string json)
