@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T15:35:27.092585+00:00",
+  "updated": "2026-10-29T15:50:06.1968899+00:00",
   "news": [
     {
       "id": "1846651706681642",
@@ -1010,5 +1010,18 @@
       "longest": 98
     }
   ],
-  "resets": []
+  "resets": [
+    {
+      "name": "Daily missions reset",
+      "every": "day",
+      "at": "05:00",
+      "zone": "America/New_York"
+    },
+    {
+      "name": "Free legend rotation changes",
+      "every": "wednesday",
+      "at": "05:00",
+      "zone": "America/New_York"
+    }
+  ]
 }
