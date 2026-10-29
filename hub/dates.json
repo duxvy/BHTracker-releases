@@ -1,5 +1,9 @@
 {
-  "note": "The owner's countdowns for BHTracker's Hub, beside the ones the collector adds by itself (only dates an official post states for certain). Only the owner edits this file (the /hub-dates skill); the collector never writes here, and the owner's word always wins: an entry here replaces an automatic one of the same name that year, and removed takes an automatic one out (its name and year). kind: season, battle-pass, event, esports or other. start and end: a date (2026-10-07) or a time with its offset (2026-10-07T17:00:00Z); at least one of them.",
+  "note": "The owner's countdowns for BHTracker's Hub, beside the ones the collector adds by itself (only dates an official post states for certain). Only the owner edits this file (the /hub-dates skill); the collector never writes here, and the owner's word always wins: an entry here replaces an automatic one of the same name that year, and removed takes an automatic one out (its name and year). kind: season, battle-pass, event, esports or other. start and end: a date (2026-10-07) or a time with its offset (2026-10-07T17:00:00Z); at least one of them. resets: what resets on a clock - name (what players read before \"in 5 h 12 m\"), every (day or a weekday), at (05:00) and zone (UTC or the region the game keeps, America/New_York).",
   "dates": [],
-  "removed": []
+  "removed": [],
+  "resets": [
+    { "name": "Daily missions reset", "every": "day", "at": "05:00", "zone": "America/New_York" },
+    { "name": "Free legend rotation changes", "every": "wednesday", "at": "05:00", "zone": "America/New_York" }
+  ]
 }
