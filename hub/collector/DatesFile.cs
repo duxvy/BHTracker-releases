@@ -4,10 +4,33 @@ using System.Text.Json;
 namespace BHTracker.Hub;
 
 /// <summary>dates.json: the dates the owner approved for the Hub's countdowns (the /hub-dates skill adds them; the
-/// collector never writes it). Each: a name, a kind, a start and/or an end, and optionally a link.</summary>
+/// collector never writes it). Each: a name, a kind, a start and/or an end, and optionally a link. Its "removed" list
+/// names the automatic countdowns (<see cref="AutoDates"/>) the owner took out, each with its year.</summary>
 public static class DatesFile
 {
     public static readonly string[] Kinds = ["season", "battle-pass", "event", "esports", "other"];
+
+    /// <summary>hub.json's source for the owner's entries.</summary>
+    public const string Source = "dates";
+
+    /// <summary>The automatic countdowns the owner took out and, for each one left out, why.</summary>
+    public static (IReadOnlyList<DateRemoval> Removed, IReadOnlyList<string> Problems) ReadRemoved(string json)
+    {
+        var removed = new List<DateRemoval>();
+        var problems = new List<string>();
+        using var doc = JsonDocument.Parse(json, new JsonDocumentOptions { CommentHandling = JsonCommentHandling.Skip, AllowTrailingCommas = true });
+        if (doc.RootElement.ValueKind != JsonValueKind.Object || !doc.RootElement.TryGetProperty("removed", out var list)) return (removed, problems);
+        if (list.ValueKind != JsonValueKind.Array) return (removed, ["removed: a list of { \"name\", \"year\" } is needed"]);
+        foreach (var e in list.EnumerateArray())
+        {
+            bool entry = e.ValueKind == JsonValueKind.Object;
+            var name = entry && e.TryGetProperty("name", out var n) && n.ValueKind == JsonValueKind.String ? n.GetString()!.Trim() : "";
+            var year = entry && e.TryGetProperty("year", out var y) && y.ValueKind == JsonValueKind.Number && y.TryGetInt32(out var number) ? number : 0;
+            if (name.Length is 0 or > 60 || year is < 2014 or > 2100) problems.Add($"removed {(name.Length > 0 ? name : "(no name)")}: a name and a year (2026) are needed");
+            else removed.Add(new DateRemoval(name, year));
+        }
+        return (removed, problems);
+    }
 
     /// <summary>The file's entries and, for each one left out, why.</summary>
     public static (IReadOnlyList<HubDate> Dates, IReadOnlyList<string> Problems) Read(string json)

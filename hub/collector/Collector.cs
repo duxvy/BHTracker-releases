@@ -6,13 +6,15 @@ namespace BHTracker.Hub;
 /// <param name="Posts">Official Steam posts, newest first.</param>
 /// <param name="LiquipediaPages">Liquipedia's tournament lists (the API's HTML), this year's first.</param>
 /// <param name="History">The history files' index as this run left them (null: as they were).</param>
+/// <param name="Removed">The automatic countdowns the owner took out (dates.json's "removed").</param>
 public sealed record HubInputs(
     IReadOnlyList<Post>? Posts,
     IReadOnlyList<string>? LiquipediaPages,
     IReadOnlyList<HubDate> Dates,
     HubDocument? Previous,
     DateTimeOffset Now,
-    HistoryIndex? History = null);
+    HistoryIndex? History = null,
+    IReadOnlyList<DateRemoval>? Removed = null);
 
 /// <summary>Builds hub.json and the date suggestions from a run's inputs, and writes each file only when its content
 /// changed (so the workflow commits only then).</summary>
@@ -50,7 +52,8 @@ public static class Collector
             ? pages.SelectMany(p => Esports.FromLiquipedia(p, today)).DistinctBy(r => r.Url).OrderByDescending(r => r.End).Take(ResultCount).ToList()
             : previous?.Esports.Results.Where(r => r.End >= today.AddDays(-60)).ToList() ?? [];
 
-        var countdowns = inputs.Dates.Where(d => DatesFile.Over(d).AddDays(1) > inputs.Now)
+        var countdowns = inputs.Dates.Select(d => d with { Source = DatesFile.Source }).Concat(Automatic(inputs))
+            .Where(d => DatesFile.Over(d).AddDays(1) > inputs.Now)
             .OrderBy(d => DatesFile.When(d.Start ?? d.End!)).ToList();
 
         return new HubDocument(HubDocument.CurrentVersion, previous?.Updated ?? inputs.Now, news, patches,
@@ -59,11 +62,39 @@ public static class Collector
 
     static DateOnly Day(string when) => DateOnly.FromDateTime(DatesFile.When(when)!.Value.UtcDateTime);
 
-    /// <summary>Dates found in recent posts that aren't in dates.json yet, for the owner to look at.</summary>
-    public static IReadOnlyList<DateSuggestion> Suggest(HubInputs inputs) =>
-        inputs.Posts is null ? [] : DateSuggestions.Find(inputs.Posts.Take(PostsLooked), DateOnly.FromDateTime(inputs.Now.UtcDateTime))
-            .Where(s => !inputs.Dates.Any(d => Names.Fold(d.Name) == Names.Fold(s.Name)))
+    /// <summary>The countdowns official posts give for certain (<see cref="AutoDates"/>; the last run's when Steam
+    /// failed), less any the owner took out or set themselves in dates.json: the owner's always win.</summary>
+    public static IReadOnlyList<HubDate> Automatic(HubInputs inputs)
+    {
+        var found = inputs.Posts is { } posts
+            ? AutoDates.Find(posts.Take(PostsLooked), DateOnly.FromDateTime(inputs.Now.UtcDateTime).AddDays(-1))
+            : inputs.Previous?.Countdowns.Where(c => c.Source == AutoDates.Source).ToList() ?? [];
+        return found.Where(a => !Owners(inputs, a.Name, Years(a))
+            && !inputs.Dates.Any(d => d.Kind == a.Kind && d.Start == a.Start && d.End == a.End)).ToList();
+    }
+
+    /// <summary>Dates found in recent posts that aren't counted down to yet, for the owner to look at (one they took out
+    /// is still suggested: a later post may give it again).</summary>
+    public static IReadOnlyList<DateSuggestion> Suggest(HubInputs inputs)
+    {
+        if (inputs.Posts is null) return [];
+        var automatic = Automatic(inputs);
+        return DateSuggestions.Find(inputs.Posts.Take(PostsLooked), DateOnly.FromDateTime(inputs.Now.UtcDateTime))
+            .Where(s => !inputs.Dates.Any(d => Names.Fold(d.Name) == Names.Fold(s.Name))
+                && !automatic.Any(a => AutoDates.Key(a.Name) == AutoDates.Key(s.Name)))
             .ToList();
+    }
+
+    // whether the owner's dates.json has its own entry for this thing in one of these years, or took it out
+    static bool Owners(HubInputs inputs, string name, IEnumerable<int> years)
+    {
+        var key = AutoDates.Key(name);
+        var them = years.ToList();
+        return inputs.Dates.Any(d => AutoDates.Key(d.Name) == key && Years(d).Intersect(them).Any())
+            || (inputs.Removed ?? []).Any(r => AutoDates.Key(r.Name) == key && them.Contains(r.Year));
+    }
+
+    static IEnumerable<int> Years(HubDate d) => new[] { d.Start, d.End }.OfType<string>().Select(w => DatesFile.When(w)!.Value.Year);
 
     /// <summary>Writes hub.json when anything but its time changed, stamping the new time; says whether it wrote.</summary>
     public static bool WriteHub(string path, HubDocument built, DateTimeOffset now)

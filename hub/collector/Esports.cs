@@ -40,13 +40,14 @@ public static partial class Esports
     }
 
     /// <summary>The official event a heading or headline names, in its usual words, or null.</summary>
-    public static string? Official(string text)
+    public static string? Official(string text) => OfficialNames(text).FirstOrDefault();
+
+    /// <summary>Every official event a text names, in order, each once.</summary>
+    public static IEnumerable<string> OfficialNames(string text) => OfficialName().Matches(text).Select(m =>
     {
-        var m = OfficialName().Match(text);
-        if (!m.Success) return null;
         var name = Regex.Replace(m.Value, @"\s+", " ").Trim();
         return name.StartsWith("Brawlhalla ", StringComparison.Ordinal) && !name.Contains("World") ? name[11..] : name;
-    }
+    }).Distinct();
 
     // the sentence a date sits in
     static string Sentence(string text, int at)

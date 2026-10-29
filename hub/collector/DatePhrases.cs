@@ -15,13 +15,17 @@ public static partial class DatePhrases
         if (Month(d.Groups["m"].Value) is not { } m1 || !int.TryParse(d.Groups["d"].Value, out var d1)) return null;
         int m2 = d.Groups["m2"].Success && Month(d.Groups["m2"].Value) is { } mm ? mm : m1;
         int d2 = d.Groups["d2"].Success && int.TryParse(d.Groups["d2"].Value, out var dd) ? dd : d1;
-        // the year nearest the post: a January date in a December post is next year's, a December one in a January post last year's
-        int year = posted.Year + (m1 < posted.Month - 6 ? 1 : m1 > posted.Month + 6 ? -1 : 0);
+        int year = NearestYear(m1, posted);
         int year2 = m2 < m1 ? year + 1 : year;
         if (d1 < 1 || d2 < 1 || d1 > DateTime.DaysInMonth(year, m1) || d2 > DateTime.DaysInMonth(year2, m2)) return null;
         var (start, end) = (new DateOnly(year, m1, d1), new DateOnly(year2, m2, d2));
         return end < start ? null : (start, end);
     }
+
+    /// <summary>The year nearest the post for a month: a January date in a December post is next year's, a December one
+    /// in a January post last year's.</summary>
+    public static int NearestYear(int month, DateOnly posted) =>
+        posted.Year + (month < posted.Month - 6 ? 1 : month > posted.Month + 6 ? -1 : 0);
 
     /// <summary>A month's number from its name or three-letter short ("Sept" too), or null.</summary>
     public static int? Month(string name)

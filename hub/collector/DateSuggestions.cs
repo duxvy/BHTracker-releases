@@ -36,18 +36,43 @@ public static partial class DateSuggestions
     // the thing a sentence dates, by our patterns: a Battle Pass, a ranked season, an esports event, an event on the list
     static (string Name, string Kind)? Name(string sentence, string title)
     {
-        if (BattlePass().Match(sentence) is { Success: true } bp) return ($"Battle Pass {bp.Groups[1].Value}", "battle-pass");
+        if (BattlePass().Match(sentence) is { Success: true } bp) return (PassName(bp), "battle-pass");
         if (sentence.Contains("Battle Pass", StringComparison.OrdinalIgnoreCase) && BattlePass().Match(title) is { Success: true } tbp)
-            return ($"Battle Pass {tbp.Groups[1].Value}", "battle-pass");
+            return (PassName(tbp), "battle-pass");
         if (RankedSeason().Match(sentence) is { Success: true } rs) return ($"Ranked Season {rs.Groups[1].Value}", "season");
         if (Esports.Official(sentence) is { } esports) return (esports, "esports");
         // "Tune in November 13-15" in a post whose headline names the event
         if (TuneIn().IsMatch(sentence) && Esports.Official(title) is { } titled) return (titled, "esports");
         if (Anniversary().Match(sentence) is { Success: true } an) return ($"{an.Value} Event", "event");
-        foreach (var e in Names.Events)
-            if (Regex.IsMatch(sentence, $@"(?<!\w){Regex.Escape(e)}(?!\w)", RegexOptions.IgnoreCase)) return (e, "event");
+        foreach (var (e, named) in EventNames)
+            if (named.IsMatch(sentence)) return (e, "event");
         return null;
     }
+
+    // the recurring events as whole words, made once (Regex's own cache holds only 15)
+    static readonly (string Name, Regex Named)[] EventNames =
+        Names.Events.Select(e => (e, new Regex($@"(?<!\w){Regex.Escape(e)}(?!\w)", RegexOptions.IgnoreCase))).ToArray();
+
+    /// <summary>Every thing on our lists a text names, each once: Battle Passes, ranked seasons, official esports events,
+    /// anniversaries and the recurring events.</summary>
+    internal static List<(string Name, string Kind)> Things(string text) =>
+        BattlePass().Matches(text).Select(m => (PassName(m), "battle-pass"))
+            .Concat(RankedSeason().Matches(text).Select(m => ($"Ranked Season {m.Groups[1].Value}", "season")))
+            .Concat(Esports.OfficialNames(text).Select(n => (n, "esports")))
+            .Concat(Anniversary().Matches(text).Select(m => ($"{m.Value} Event", "event")))
+            .Concat(EventNames.Where(e => e.Named.IsMatch(text)).Select(e => (e.Name, "event")))
+            .DistinctBy(t => AutoDates.Key(t.Item1)).ToList();
+
+    /// <summary>A post's sentences, with its headings, bullets and lines kept apart (plain text runs them together).</summary>
+    internal static IEnumerable<string> Sentences(string bbcode) =>
+        Bbcode.Plain(Block().Replace(bbcode, "\u0001")).Split('\u0001')   // one pass: a mark where each block ends
+            .Select(b => b.Trim()).Where(b => b.Length > 0).SelectMany(b => Sentence().Split(b));
+
+    // "Battle Pass Season 14", "Battle Pass 14" (Season 14), "Battle Pass Classic Season 8" (Classic 8)
+    static string PassName(Match m) => $"Battle Pass {(m.Groups["classic"].Success ? "Classic" : "Season")} {m.Groups["n"].Value}";
+
+    [GeneratedRegex(@"\[/?(?:h[1-6]|\*|p|list|olist|table|tr|td|th)\]|\r?\n")]
+    private static partial Regex Block();
 
     [GeneratedRegex(@"(?<=[.!?])\s+")]
     private static partial Regex Sentence();
@@ -55,11 +80,11 @@ public static partial class DateSuggestions
     [GeneratedRegex(@"\b(?:ends?|ending|until|last day|closes?)\b", RegexOptions.IgnoreCase)]
     private static partial Regex Ends();
 
-    [GeneratedRegex(@"Battle Pass (Season \d+|Classic \d+)")]
+    [GeneratedRegex(@"Battle Pass (?:(?<classic>Classic )(?:Season )?|Season )?(?<n>\d+)\b")]
     private static partial Regex BattlePass();
 
     [GeneratedRegex(@"\b(?:tune in|begins?|starts?|takes? place|kicks? off)\b", RegexOptions.IgnoreCase)]
-    private static partial Regex TuneIn();
+    internal static partial Regex TuneIn();
 
     [GeneratedRegex(@"Ranked Season (\d+)")]
     private static partial Regex RankedSeason();

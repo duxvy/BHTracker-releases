@@ -73,6 +73,7 @@ public sealed record HubEsports(IReadOnlyList<EsportsEvent> Upcoming, IReadOnlyL
     public string Credit => "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)";
 }
 
-/// <summary>An approved date to count down to: a season, a Battle Pass, an event or an esports event. Start and End are
-/// dates ("2026-10-07") or times with their offset ("2026-10-07T17:00:00Z"), as written in dates.json.</summary>
-public sealed record HubDate(string Name, string Kind, string? Start, string? End, string? Url);
+/// <summary>A date to count down to: a season, a Battle Pass, an event or an esports event. Start and End are dates
+/// ("2026-10-07") or times with their offset ("2026-10-07T17:00:00Z"), as written in dates.json. Source, added after
+/// 2.9.0: "dates" (the owner's dates.json) or "steam" (added by itself from an official post, in days: <see cref="AutoDates"/>).</summary>
+public sealed record HubDate(string Name, string Kind, string? Start, string? End, string? Url, string? Source = null);

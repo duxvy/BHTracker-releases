@@ -1,4 +1,5 @@
 {
-  "note": "Dates BHTracker's Hub counts down to. Only the owner adds them, after checking (the /hub-dates skill); the collector never writes here. kind: season, battle-pass, event, esports or other. start and end: a date (2026-10-07) or a time with its offset (2026-10-07T17:00:00Z); at least one of them.",
-  "dates": []
+  "note": "The owner's countdowns for BHTracker's Hub, beside the ones the collector adds by itself (only dates an official post states for certain). Only the owner edits this file (the /hub-dates skill); the collector never writes here, and the owner's word always wins: an entry here replaces an automatic one of the same name that year, and removed takes an automatic one out (its name and year). kind: season, battle-pass, event, esports or other. start and end: a date (2026-10-07) or a time with its offset (2026-10-07T17:00:00Z); at least one of them.",
+  "dates": [],
+  "removed": []
 }

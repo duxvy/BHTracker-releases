@@ -22,8 +22,12 @@ app update.
   [Liquipedia](https://liquipedia.net/brawlhalla/) (CC-BY-SA 3.0), which BHTracker credits wherever they show.
   The collector follows [Liquipedia's API terms](https://liquipedia.net/api-terms-of-use): the API only, at most one
   request every 2 seconds and one parse every 30, gzip, a User-Agent naming this repo, and each answer kept for 12 hours.
-- **Countdowns:** `dates.json`, which the owner checks and approves. The collector only *suggests* dates it finds in
-  posts (`date-suggestions.json` on `hub-data`); it never adds them itself.
+- **Countdowns:** the collector adds one by itself only when an official post states it for certain: one thing on its
+  lists (a Battle Pass, a ranked season, an event, an official esports event) with a month and a day, as a span or as
+  the day it starts or ends, and no other post saying otherwise (a newer post that changes it wins). It counts in days
+  and never guesses an hour, and it links to the post. Anything less certain is only *suggested* (`date-suggestions.json`
+  on `hub-data`) for the owner to check. The owner's `dates.json` always wins: their own entries replace the automatic
+  ones, and its `removed` list takes one out.
 
 ## Summaries, not copies
 `hub.json` holds only BHTracker's own summaries, facts and links. It never holds a sentence from anyone's post.

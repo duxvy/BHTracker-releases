@@ -28,11 +28,14 @@ var hubPath = Path.Combine(outDir, "hub.json");
 var previous = File.Exists(hubPath) ? HubDocument.FromJson(File.ReadAllText(hubPath)) : null;
 
 IReadOnlyList<HubDate> dates = [];
+IReadOnlyList<DateRemoval> removed = [];
 if (options.TryGetValue("dates", out var datesPath))
 {
-    var (read, problems) = DatesFile.Read(File.ReadAllText(datesPath));
-    foreach (var p in problems) Console.WriteLine($"::warning::dates.json: {p} (left out)");
-    dates = read;
+    var datesJson = File.ReadAllText(datesPath);
+    var (read, problems) = DatesFile.Read(datesJson);
+    var (taken, removedProblems) = DatesFile.ReadRemoved(datesJson);
+    foreach (var p in problems.Concat(removedProblems)) Console.WriteLine($"::warning::dates.json: {p} (left out)");
+    (dates, removed) = (read, taken);
 }
 
 using var cts = new CancellationTokenSource(TimeSpan.FromMinutes(10));
@@ -71,12 +74,13 @@ if (!options.ContainsKey("no-history"))
     }
 }
 
-var inputs = new HubInputs(posts, pages, dates, previous, now, history);
+var inputs = new HubInputs(posts, pages, dates, previous, now, history, removed);
 var hub = Collector.Build(inputs, Names.Bundled);
 bool wroteHub = Collector.WriteHub(hubPath, hub, now);
 bool wroteSuggestions = Collector.WriteSuggestions(Path.Combine(outDir, "date-suggestions.json"), Collector.Suggest(inputs));
 Console.WriteLine($"hub.json {(wroteHub ? "updated" : "unchanged")}: {hub.News.Count} news, {hub.Patches.Count} patches, " +
-    $"{hub.Esports.Upcoming.Count} upcoming, {hub.Esports.Results.Count} results, {hub.Countdowns.Count} countdowns");
+    $"{hub.Esports.Upcoming.Count} upcoming, {hub.Esports.Results.Count} results, {hub.Countdowns.Count} countdowns " +
+    $"({hub.Countdowns.Count(c => c.Source == AutoDates.Source)} from posts)");
 Console.WriteLine($"date-suggestions.json {(wroteSuggestions ? "updated" : "unchanged")}");
 return 0;
 
@@ -170,10 +174,13 @@ static string LiquipediaHtml(string text)
 
 static int CheckDates(string path)
 {
-    var (dates, problems) = DatesFile.Read(File.ReadAllText(path));
+    var json = File.ReadAllText(path);
+    var (dates, problems) = DatesFile.Read(json);
+    var (removed, removedProblems) = DatesFile.ReadRemoved(json);
     foreach (var d in dates) Console.WriteLine($"ok   {d.Kind,-11} {d.Name}: {d.Start ?? "-"} to {d.End ?? "-"}{(d.Url is null ? "" : $" ({d.Url})")}");
-    foreach (var p in problems) Console.WriteLine($"BAD  {p}");
-    return problems.Count == 0 ? 0 : 1;
+    foreach (var r in removed) Console.WriteLine($"ok   removed     {r.Name} ({r.Year}): never shown by itself");
+    foreach (var p in problems.Concat(removedProblems)) Console.WriteLine($"BAD  {p}");
+    return problems.Count + removedProblems.Count == 0 ? 0 : 1;
 }
 
 static Dictionary<string, string> Options(string[] args)
