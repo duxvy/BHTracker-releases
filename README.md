@@ -12,8 +12,9 @@ You need Windows 10 or 11 (64-bit). You don't need admin rights or anything else
 > It isn't affiliated with or endorsed by Blue Mammoth Games or Ubisoft. Its Mods and Backgrounds pages change
 > Brawlhalla's own game files: Blue Mammoth doesn't support mods, and changing the game's files could break the game.
 > Using mods could lead to account restrictions or bans, in any mode, including unranked. Future integrity checks or
-> anti-cheat measures may block mods or stop the game from starting. Mods may not show in ranked, and official
-> tournaments don't allow them (stage backgrounds are the one exception). Mods are made by their authors, not BHTracker.
+> anti-cheat measures may block mods or stop the game from starting. Some mods hide things or change the HUD on your
+> screen: which ones you use is your choice. Official tournaments ban mods, stage mods included: stage backgrounds are the
+> only kind they allow. Mods are made by their authors, not BHTracker.
 > You're responsible for making sure any mod you import follows Brawlhalla's rules and respects the rights of whoever owns
 > its art. The full disclaimer and terms come with BHTracker: **Settings → About** (and `TERMS.txt`, next to
 > BHTracker.exe).
