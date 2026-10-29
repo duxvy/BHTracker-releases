@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T23:18:59.7224288+00:00",
+  "updated": "2026-10-29T10:44:48.8804607+00:00",
   "news": [
     {
       "id": "1846651706681642",
@@ -867,7 +867,32 @@
     "results": [],
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
   },
-  "countdowns": [],
+  "countdowns": [
+    {
+      "name": "Brawlhalloween",
+      "kind": "event",
+      "start": "2026-10-07",
+      "end": "2026-10-28",
+      "url": "https://store.steampowered.com/news/app/291550/view/1843481262705379",
+      "source": "steam"
+    },
+    {
+      "name": "11th Anniversary Event",
+      "kind": "event",
+      "start": "2026-11-04",
+      "end": "2026-11-25",
+      "url": "https://store.steampowered.com/news/app/291550/view/1846651706672605",
+      "source": "steam"
+    },
+    {
+      "name": "Brawlhalla World Championship",
+      "kind": "esports",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "url": "https://store.steampowered.com/news/app/291550/view/1845383656378485",
+      "source": "steam"
+    }
+  ],
   "history": {
     "version": 1,
     "patchesSince": 2016,
