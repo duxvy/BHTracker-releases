@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T15:50:06.1968899+00:00",
+  "updated": "2026-10-30T05:58:49.7380323+00:00",
   "news": [
     {
       "id": "1846651706681642",
@@ -868,14 +868,6 @@
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
   },
   "countdowns": [
-    {
-      "name": "Brawlhalloween",
-      "kind": "event",
-      "start": "2026-10-07",
-      "end": "2026-10-28",
-      "url": "https://store.steampowered.com/news/app/291550/view/1843481262705379",
-      "source": "steam"
-    },
     {
       "name": "11th Anniversary Event",
       "kind": "event",
