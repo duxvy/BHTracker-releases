@@ -36,7 +36,7 @@ app update.
   only while the current one is shorter than the shortest of the 6 (after that it may already be over). BHTracker shows
   it in weeks ("ends in about 7 weeks"), marked "estimated". `dates.json`'s entries and `removed` list replace or take
   one out. When a start is missing, the run's log says so (`Estimates:` warnings): add it to `seasons.json`.
-- **Resets:** `dates.json`'s `resets` (each checked by the owner in the game): a name, every day or a weekday, a time and
+- **Resets:** `dates.json`'s `resets` (each on the owner's word): a name, every day or a weekday, a time and
   the time zone it keeps. BHTracker works out the next one in the player's own time.
 
 ## Summaries, not copies

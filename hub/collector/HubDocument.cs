@@ -15,6 +15,8 @@ namespace BHTracker.Hub;
 /// Added after 2.9.0, apart from Countdowns: older apps would show them as exact days.</param>
 /// <param name="Resets">What resets on a clock (daily missions...), as rules the app rolls forward itself. Added after
 /// 2.9.0, apart from Countdowns: older apps would show a passed reset's time until the next hub.json.</param>
+/// <param name="Checked">When the collector last ran and read its sources: every good run stamps it, so the app tells a collector
+/// that stopped from a quiet spell of news. Added after 2.15.1.</param>
 public sealed record HubDocument(
     int Version,
     DateTimeOffset Updated,
@@ -24,7 +26,8 @@ public sealed record HubDocument(
     IReadOnlyList<HubDate> Countdowns,
     HistoryIndex? History = null,
     IReadOnlyList<HubEstimate>? Estimates = null,
-    IReadOnlyList<HubReset>? Resets = null)
+    IReadOnlyList<HubReset>? Resets = null,
+    DateTimeOffset? Checked = null)
 {
     public const int CurrentVersion = 1;
 
@@ -89,7 +92,7 @@ public sealed record HubDate(string Name, string Kind, string? Start, string? En
 /// it in weeks ("ends in about 7 weeks"), never as a day.</summary>
 public sealed record HubEstimate(string Name, string Kind, string Start, string End, int Seasons, int Shortest, int Longest);
 
-/// <summary>Something that resets on a clock, from dates.json (the owner checks each time in the game): "day" or a weekday
+/// <summary>Something that resets on a clock, from dates.json (each time on the owner's word): "day" or a weekday
 /// ("wednesday"), a time ("05:00") and the time zone it keeps ("America/New_York", or "UTC"). The app works out the next
 /// one in the player's own time.</summary>
 public sealed record HubReset(string Name, string Every, string At, string Zone);

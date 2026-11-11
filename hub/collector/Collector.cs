@@ -127,14 +127,15 @@ public static class Collector
 
     static IEnumerable<int> Years(HubDate d) => new[] { d.Start, d.End }.OfType<string>().Select(w => DatesFile.When(w)!.Value.Year);
 
-    /// <summary>Writes hub.json when anything but its time changed, stamping the new time; says whether it wrote.</summary>
+    /// <summary>Writes hub.json, stamping this run's time (Checked); the content's own time (Updated) moves only when anything
+    /// else changed. Says whether the content changed.</summary>
     public static bool WriteHub(string path, HubDocument built, DateTimeOffset now)
     {
         var old = File.Exists(path) ? File.ReadAllText(path) : null;
-        if (old is not null && HubDocument.FromJson(old) is { } before && (built with { Updated = before.Updated }).ToJson() == old)
-            return false;
-        WriteAtomically(path, (built with { Updated = now }).ToJson());
-        return true;
+        var before = old is null ? null : HubDocument.FromJson(old);
+        bool same = before is not null && (built with { Updated = before.Updated, Checked = before.Checked }).ToJson() == old;
+        WriteAtomically(path, (built with { Updated = same ? before!.Updated : now, Checked = now }).ToJson());
+        return !same;
     }
 
     /// <summary>Writes the suggestions file when its content changed; says whether it wrote.</summary>

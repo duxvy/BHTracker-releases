@@ -36,7 +36,7 @@ public static class DatesFile
     /// <summary>"day" or a weekday: how often a reset comes.</summary>
     public static readonly string[] Everies = ["day", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 
-    /// <summary>What resets on a clock ("resets": a name, every, at, zone), each checked by the owner in the game, and, for
+    /// <summary>What resets on a clock ("resets": a name, every, at, zone), each on the owner's word, and, for
     /// each one left out, why. The zone is "UTC" or a region's IANA name ("America/New_York"): the app finds it.</summary>
     public static (IReadOnlyList<HubReset> Resets, IReadOnlyList<string> Problems) ReadResets(string json)
     {
