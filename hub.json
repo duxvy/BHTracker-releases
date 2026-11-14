@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updated": "2026-10-30T05:58:49.7380323+00:00",
+  "updated": "2026-11-14T23:58:17.5818638+00:00",
   "news": [
+    {
+      "id": "1849458702684349",
+      "title": "BCX 2026 SATURDAY REVEALS",
+      "date": "2026-11-14T18:56:41+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1849458702684349",
+      "categories": [
+        "esports"
+      ]
+    },
     {
       "id": "1846651706681642",
       "title": "An Update on Our Anti-Cheating Measures",
@@ -110,16 +120,6 @@
       "date": "2026-08-29T04:41:17+00:00",
       "summary": "",
       "url": "https://store.steampowered.com/news/app/291550/view/1842212951304949",
-      "categories": [
-        "esports"
-      ]
-    },
-    {
-      "id": "1841579228672117",
-      "title": "Community Tournament Weekend Twitch Drops",
-      "date": "2026-08-22T19:40:25+00:00",
-      "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1841579228672117",
       "categories": [
         "esports"
       ]
@@ -892,9 +892,9 @@
       {
         "year": 2026,
         "file": "history/2026.json",
-        "posts": 55,
+        "posts": 56,
         "patches": 7,
-        "sha": "57e8acb02e28b801"
+        "sha": "9d2cd060a17cbddb"
       },
       {
         "year": 2025,
@@ -1016,5 +1016,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-14T18:16:04.1769444+00:00"
+  "checked": "2026-11-14T23:58:17.5818638+00:00"
 }
