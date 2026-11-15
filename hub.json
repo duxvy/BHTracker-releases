@@ -1,7 +1,38 @@
 {
   "version": 1,
-  "updated": "2026-11-14T23:58:17.5818638+00:00",
+  "updated": "2026-11-15T21:05:46.0485214+00:00",
   "news": [
+    {
+      "id": "1849458702686805",
+      "title": "Brawlhalla x My Hero Academia Crossover Event Reveal",
+      "date": "2026-11-15T17:03:47+00:00",
+      "summary": "My Hero Academia Crossover crossover",
+      "url": "https://store.steampowered.com/news/app/291550/view/1849458702686805",
+      "categories": [
+        "event",
+        "crossover"
+      ]
+    },
+    {
+      "id": "1849458702686795",
+      "title": "New Legend: Morgwyn the Dreadknight",
+      "date": "2026-11-15T16:59:59+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1849458702686795",
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "id": "1849458702686742",
+      "title": "In-Game Tournaments: Closed Beta Phase 1",
+      "date": "2026-11-15T16:48:50+00:00",
+      "summary": "",
+      "url": "https://store.steampowered.com/news/app/291550/view/1849458702686742",
+      "categories": [
+        "esports"
+      ]
+    },
     {
       "id": "1849458702684349",
       "title": "BCX 2026 SATURDAY REVEALS",
@@ -89,37 +120,6 @@
       "date": "2026-09-18T17:36:17+00:00",
       "summary": "",
       "url": "https://store.steampowered.com/news/app/291550/view/1844115010495627",
-      "categories": [
-        "esports"
-      ]
-    },
-    {
-      "id": "1843481262705379",
-      "title": "Battle Pass Season 14: Elysium Rising – Patch 10.11",
-      "date": "2026-09-15T18:36:25+00:00",
-      "summary": "Battle Pass Season 14 · 4 bug fixes",
-      "url": "https://store.steampowered.com/news/app/291550/view/1843481262705379",
-      "categories": [
-        "patch",
-        "battle-pass"
-      ]
-    },
-    {
-      "id": "1842846814456650",
-      "title": "NEW BATTLE PASS 14 REVEALED",
-      "date": "2026-09-08T20:00:08+00:00",
-      "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1842846814456650",
-      "categories": [
-        "battle-pass"
-      ]
-    },
-    {
-      "id": "1842212951304949",
-      "title": "Earn Free Items During the Eternal Sports Crew Battle Championship Weekend",
-      "date": "2026-08-29T04:41:17+00:00",
-      "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1842212951304949",
       "categories": [
         "esports"
       ]
@@ -864,7 +864,16 @@
         "source": "steam"
       }
     ],
-    "results": [],
+    "results": [
+      {
+        "name": "World Championship 2026",
+        "start": "2026-11-13",
+        "end": "2026-11-15",
+        "winner": "TBD & Shira & Monihalla",
+        "runnerUp": "TBD & Mounir & BalloonBoy",
+        "url": "https://liquipedia.net/brawlhalla/World_Championship/2026"
+      }
+    ],
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
   },
   "countdowns": [
@@ -892,9 +901,9 @@
       {
         "year": 2026,
         "file": "history/2026.json",
-        "posts": 56,
+        "posts": 59,
         "patches": 7,
-        "sha": "9d2cd060a17cbddb"
+        "sha": "0ac29eeda7567c85"
       },
       {
         "year": 2025,
@@ -1016,5 +1025,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-15T15:42:29.5668583+00:00"
+  "checked": "2026-11-15T21:05:46.0485214+00:00"
 }
