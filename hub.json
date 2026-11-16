@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-15T21:05:46.0485214+00:00",
+  "updated": "2026-11-16T18:39:29.6845922+00:00",
   "news": [
     {
       "id": "1849458702686805",
@@ -869,8 +869,8 @@
         "name": "World Championship 2026",
         "start": "2026-11-13",
         "end": "2026-11-15",
-        "winner": "TBD & Shira & Monihalla",
-        "runnerUp": "TBD & Mounir & BalloonBoy",
+        "winner": "BalloonBoy & Shira & Monihalla",
+        "runnerUp": "Godly & Mounir & BalloonBoy",
         "url": "https://liquipedia.net/brawlhalla/World_Championship/2026"
       }
     ],
@@ -1025,5 +1025,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-16T06:44:52.2449614+00:00"
+  "checked": "2026-11-16T18:39:29.6845922+00:00"
 }
