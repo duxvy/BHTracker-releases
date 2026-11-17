@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-16T18:39:29.6845922+00:00",
+  "updated": "2026-11-17T02:58:39.6587391+00:00",
   "news": [
     {
       "id": "1849458702686805",
@@ -855,15 +855,7 @@
     }
   ],
   "esports": {
-    "upcoming": [
-      {
-        "name": "Brawlhalla World Championship",
-        "start": "2026-11-13",
-        "end": "2026-11-15",
-        "url": "https://store.steampowered.com/news/app/291550/view/1845383656378485",
-        "source": "steam"
-      }
-    ],
+    "upcoming": [],
     "results": [
       {
         "name": "World Championship 2026",
@@ -883,14 +875,6 @@
       "start": "2026-11-04",
       "end": "2026-11-25",
       "url": "https://store.steampowered.com/news/app/291550/view/1846651706672605",
-      "source": "steam"
-    },
-    {
-      "name": "Brawlhalla World Championship",
-      "kind": "esports",
-      "start": "2026-11-13",
-      "end": "2026-11-15",
-      "url": "https://store.steampowered.com/news/app/291550/view/1845383656378485",
       "source": "steam"
     }
   ],
@@ -1025,5 +1009,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-16T18:39:29.6845922+00:00"
+  "checked": "2026-11-17T02:58:39.6587391+00:00"
 }
