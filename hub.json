@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "updated": "2026-11-17T02:58:39.6587391+00:00",
+  "updated": "2026-11-18T17:20:23.0979474+00:00",
   "news": [
+    {
+      "id": "1849827110424333",
+      "title": "New Legend: Morgwyn & In-Game Tournaments Phase 1 - Patch 11.01",
+      "date": "2026-11-18T14:00:05+00:00",
+      "summary": "3 bug fixes",
+      "url": "https://store.steampowered.com/news/app/291550/view/1849827110424333",
+      "categories": [
+        "patch",
+        "esports"
+      ]
+    },
     {
       "id": "1849458702686805",
       "title": "Brawlhalla x My Hero Academia Crossover Event Reveal",
@@ -110,16 +121,6 @@
       "date": "2026-09-26T16:54:04+00:00",
       "summary": "",
       "url": "https://store.steampowered.com/news/app/291550/view/1844751498227589",
-      "categories": [
-        "esports"
-      ]
-    },
-    {
-      "id": "1844115010495627",
-      "title": "Earn Free Items During the Autumn Championship Singles Weekend",
-      "date": "2026-09-18T17:36:17+00:00",
-      "summary": "",
-      "url": "https://store.steampowered.com/news/app/291550/view/1844115010495627",
       "categories": [
         "esports"
       ]
@@ -885,9 +886,9 @@
       {
         "year": 2026,
         "file": "history/2026.json",
-        "posts": 59,
+        "posts": 60,
         "patches": 7,
-        "sha": "0ac29eeda7567c85"
+        "sha": "99f1a79f2e2dcf06"
       },
       {
         "year": 2025,
@@ -1009,5 +1010,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-18T07:40:39.8496862+00:00"
+  "checked": "2026-11-18T17:20:23.0979474+00:00"
 }
