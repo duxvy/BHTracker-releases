@@ -1,12 +1,4 @@
 {
   "note": "Dates found in Brawlhalla's recent posts, for the owner to check. None of them shows in BHTracker until it's added to dates.json (the /hub-dates skill).",
-  "suggestions": [
-    {
-      "name": "Brawlhalla World Championship",
-      "kind": "esports",
-      "start": "2026-11-18",
-      "post": "New Legend: Morgwyn & In-Game Tournaments Phase 1 - Patch 11.01",
-      "url": "https://store.steampowered.com/news/app/291550/view/1849827110424333"
-    }
-  ]
+  "suggestions": []
 }
