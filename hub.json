@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-18T17:20:23.0979474+00:00",
+  "updated": "2026-11-23T07:51:48.8760975+00:00",
   "news": [
     {
       "id": "1849827110424333",
@@ -865,6 +865,14 @@
         "winner": "BalloonBoy & Shira & Monihalla",
         "runnerUp": "Godly & Mounir & BalloonBoy",
         "url": "https://liquipedia.net/brawlhalla/World_Championship/2026"
+      },
+      {
+        "name": "Autumn Championship 2026: Europe",
+        "start": "2026-09-19",
+        "end": "2026-09-26",
+        "winner": "Godly & Taya & Ahmet",
+        "runnerUp": "Ahmet & Dark & Shira",
+        "url": "https://liquipedia.net/brawlhalla/Year_Eleven/Autumn_Championship/Europe"
       }
     ],
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
@@ -1010,5 +1018,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-22T21:54:59.0984559+00:00"
+  "checked": "2026-11-23T07:51:48.8760975+00:00"
 }
