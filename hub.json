@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-24T19:33:40.3993305+00:00",
+  "updated": "2026-11-26T00:30:05.7283575+00:00",
   "news": [
     {
       "id": "1849827110424333",
@@ -873,22 +873,6 @@
         "winner": "BalloonBoy & Zen & Hideaway",
         "runnerUp": "Raid & MegD & Raydish",
         "url": "https://liquipedia.net/brawlhalla/Year_Eleven/Autumn_Championship/North_America"
-      },
-      {
-        "name": "Autumn Championship 2026: South America",
-        "start": "2026-09-19",
-        "end": "2026-09-26",
-        "winner": "Lopes & Lopes & Yüz",
-        "runnerUp": "Kyna",
-        "url": "https://liquipedia.net/brawlhalla/Year_Eleven/Autumn_Championship/South_America"
-      },
-      {
-        "name": "Autumn Championship 2026: Europe",
-        "start": "2026-09-19",
-        "end": "2026-09-26",
-        "winner": "Godly & Taya & Ahmet",
-        "runnerUp": "Ahmet & Dark & Shira",
-        "url": "https://liquipedia.net/brawlhalla/Year_Eleven/Autumn_Championship/Europe"
       }
     ],
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
@@ -1034,5 +1018,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-25T14:33:32.2941813+00:00"
+  "checked": "2026-11-26T00:30:05.7283575+00:00"
 }
