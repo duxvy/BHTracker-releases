@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-26T00:30:05.7283575+00:00",
+  "updated": "2026-11-27T00:39:20.0856634+00:00",
   "news": [
     {
       "id": "1849827110424333",
@@ -865,28 +865,11 @@
         "winner": "BalloonBoy & Shira & Monihalla",
         "runnerUp": "Godly & Mounir & BalloonBoy",
         "url": "https://liquipedia.net/brawlhalla/World_Championship/2026"
-      },
-      {
-        "name": "Autumn Championship 2026: North America",
-        "start": "2026-09-20",
-        "end": "2026-09-27",
-        "winner": "BalloonBoy & Zen & Hideaway",
-        "runnerUp": "Raid & MegD & Raydish",
-        "url": "https://liquipedia.net/brawlhalla/Year_Eleven/Autumn_Championship/North_America"
       }
     ],
     "credit": "Results: data from Liquipedia (https://liquipedia.net/brawlhalla/), CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)"
   },
-  "countdowns": [
-    {
-      "name": "11th Anniversary Event",
-      "kind": "event",
-      "start": "2026-11-04",
-      "end": "2026-11-25",
-      "url": "https://store.steampowered.com/news/app/291550/view/1846651706672605",
-      "source": "steam"
-    }
-  ],
+  "countdowns": [],
   "history": {
     "version": 1,
     "patchesSince": 2016,
@@ -1018,5 +1001,5 @@
       "zone": "America/New_York"
     }
   ],
-  "checked": "2026-11-26T13:59:59.3280355+00:00"
+  "checked": "2026-11-27T00:39:20.0856634+00:00"
 }
